@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 登录界面 -->
+    <div id="login-container" class="login-container">
+        <div class="login-box">
+            <h2>Word Learning Platform</h2>
+            <p class="login-subtitle">Enterprise Edition v2.0</p>
+            
+            <div id="user-list-section">
+                <h3>Recent Users</h3>
+                <div id="recent-users" class="recent-users"></div>
+            </div>
+            
+            <div class="login-form">
+                <h3>Login or Create Account</h3>
+                <input type="text" id="username-input" placeholder="Enter username (3-20 characters)" maxlength="20">
+                <button id="login-btn">Login / Register</button>
+                <p class="login-help">Username can contain letters, numbers, underscore, and hyphen only.</p>
+            </div>
+            
+            <div id="login-message" class="login-message"></div>
+        </div>
+    </div>
+
+    <!-- 主应用界面 -->
+    <div id="app-container" class="dashboard-container hidden">        
+        <aside class="sidebar sidebar-left">
+            <h2>Statistics</h2>
+            <div id="stats-panel">
+                <p>Total Words: <span id="stats-total"></span></p>
+                <p>Known Words: <span id="stats-known"></span></p>
+                <p>Review Needed: <span id="stats-review"></span></p>
+            </div>
+            
+            <!-- 用户信息和操作 -->
+            <div class="user-section">
+                <div class="user-info">
+                    <p class="user-welcome">Welcome, <strong id="current-username"></strong></p>
+                    <p class="user-progress" id="user-progress"></p>
+                </div>
+                <div class="user-actions">
+                    <button id="logout-btn" class="btn-logout">Logout</button>
+                </div>
+            </div>
+            
+            <div id="dictionary-panel">
+                <h3>Dictionary</h3>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search word..." />
+                    <button id="search-btn">Search</button>
+                </div>
+                <div id="search-result" class="search-result">
+                    <p class="search-placeholder">Enter a word to see its meaning</p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div id="welcome-panel">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="welcome-icon">
+                    <path d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.5a.75.75 0 0 0 .5.707c.457.183 1.018.332 1.625.441a10.43 10.43 0 0 1-1.375-4.342.75.75 0 0 1 .656-.822l.248-.031a.75.75 0 0 1 .822.656c.203.882.35 1.79.44 2.714.05.512.106 1.02.167 1.523.06.503.124 1 .194 1.488.04.29.082.576.126.857.068.44.14.873.217 1.296.124.69.264 1.37.418 2.036a9.703 9.703 0 0 0 5.25 0c.154-.666.294-1.346.418-2.036.077-.423.15-.856.217-1.296.044-.28.086-.567.126-.857.07-.487.134-.985.194-1.488.06-.503.117-1.011.167-1.523.09-.924.237-1.832.44-2.714a.75.75 0 0 1 .822-.656l.248.031a.75.75 0 0 1 .656.822 10.43 10.43 0 0 1-1.375 4.342c.607-.11 1.168-.258 1.625-.441a.75.75 0 0 0 .5-.707V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533.75.75 0 0 1-.916-.002z"></path>
+                    <path fill-rule="evenodd" d="M12 21a8.25 8.25 0 0 0 6.666-3.792.75.75 0 0 0-.66-1.116l-1.628-.271a.75.75 0 0 0-.743.529 6.75 6.75 0 0 1-11.268 0 .75.75 0 0 0-.743-.529l-1.628.271a.75.75 0 0 0-.66 1.116A8.25 8.25 0 0 0 12 21z" clip-rule="evenodd"></path>
+                  </svg>
+                <h2>Welcome to Your Learning Dashboard</h2>
+                <p>Select a mode to begin. Your progress is saved automatically.</p>
+            </div>
+            <div class="header-section">
+                <h1>Word Memorizer</h1>
+                <div class="batch-nav-buttons">
+                    <button id="prev-batch-header-btn" class="prev-batch-header-btn hidden">上一批</button>
+                    <button id="next-batch-header-btn" class="next-batch-header-btn hidden">下一批</button>
+                </div>
+            </div>
+            <div class="mode-selection">
+                <button id="learn-mode-btn">Sequential Learning</button>
+                <button id="exam-mode-btn">Random Exam</button>
+                <button id="review-mode-btn">Review Mistakes</button>
+            </div>
+    
+            <div id="word-display" class="hidden">
+                <ul id="word-list"></ul>
+                <div class="session-controls">
+                    <button id="submit-btn" class="hidden">Submit Results</button>
+                    <button id="back-to-home-session-btn">Return to Home</button>
+                </div>
+            </div>
+            
+            <div id="completion-message" class="hidden">
+                <p></p>
+                <button id="next-batch-btn" class="hidden">Learn Next Batch</button>
+                <button id="return-home-btn">Return Home</button>
+            </div>
+        </main>
+
+        <aside class="sidebar sidebar-right">
+            <h2>Review List</h2>
+            <ul id="review-list"></ul>
+        </aside>
+    </div> <!-- End app-container -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

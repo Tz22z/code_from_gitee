@@ -1,0 +1,4352 @@
+{
+    "user_info": {
+        "created_at": 1755196688,
+        "last_learn_position": 0,
+        "last_login": 1755590306,
+        "total_learning_time": 0,
+        "total_sessions": 4,
+        "username": "test_user"
+    },
+    "words": {
+        "abide": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "abort": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "abreast": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "abrupt": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "accessory": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "activate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "acupuncture": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "adequacy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "advent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "adversary": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "adverse": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "affectionate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "affiliate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "affixation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "afield": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "afloat": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "aggravate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "agitate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "agony": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "aide": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "algae": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "alleviate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "alloy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "allude": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "allure": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "allusion": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "aloft": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "alternate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "amass": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "amiable": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ammunition": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "analogue": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "analogy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "anguish": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "annexation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "antagonism": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "antonym": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "apparatus": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "appendix": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "appliance": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "applicable": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "appraise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "apprentice": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "appropriate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "arbitrarily": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ardent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "arena": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "arrogance": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "artery": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "articulate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "artifact": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "artillery": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ascend": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ascendance": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ascertain": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ascribe": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "aspire": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "assembly": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "assert": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "assertive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "assignment": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "assimilate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "assortment": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "asylum": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "atrocious": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "attachment": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "authentic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "autonomy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "avail": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "avenue": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "avert": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "aviation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "baffle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bail": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "banquet": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bare": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "barge": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "barometer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "barracks": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "batter": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "beset": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "besiege": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "beware": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bewilderment": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bibliography": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "binoculars": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "blanket": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "blast": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "blaze": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bleach": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bleak": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "blush": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "boast": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bolster": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "boost": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bout": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bowel": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "branch": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "breach": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "brewery": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "brigade": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "brink": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "brisk": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "broad": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "brood": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "browser": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bruise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "brutal": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "bump": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "buoyant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "canoe": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "caption": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "captive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "carrier": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cartel": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "carton": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "casual": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "casualty": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cater": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cathedral": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cemetery": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ceramic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "certify": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "chapel": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "character": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "charter": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "chief": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "choir": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "chop": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "chunk": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cirrus": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "civic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "clan": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cleanse": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "clearance": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "clench": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "clergy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "clerical": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "climatic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "clinical": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cloak": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "clog": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "closet": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "coalition": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "collective": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "collision": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "columnist": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "comic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "commemorate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "commercial": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "commitment": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "commonplace": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "community": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "commuter": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "companion": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "compartment": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "compatible": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "compel": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "competence": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "complement": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "composite": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "compress": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "comprise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "comrade": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "conceal": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "concede": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "conceit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "condolence": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "conducive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "confer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "confide": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "conform": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "conformity": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "congressional": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "consistency": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "conspicuous": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "constituency": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "constitute": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "consul": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "contemplative": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "contend": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "contrive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "controversial": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "controversy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "conventional": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "convey": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "convicted": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cop": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "coral": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "core": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "corporal": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "corrosion": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cosmetic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cosmopolitan": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "counsel": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "counterfeit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "courtesy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "craft": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "crate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "crave": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "credential": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "crevice": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "crop": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "crouch": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "crow": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "crowd": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "crows": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "crude": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "culminate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cumulative": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cunning": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "curb": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "curtail": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "custody": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cyber": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cyber-": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "cylinder": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dazzle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "debris": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "decade": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "decent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "decomposition": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "decree": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dedication": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deduct": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deduction": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deductive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "definite": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "degeneration": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "degradation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "delicate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "delude": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dense": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "denunciation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deplore": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deploy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "depreciate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "depression": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deputy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deregulate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "designate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "desolate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "despise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "destructive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "detain": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "detention": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deter": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "detergent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deteriorate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deterrent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "deviate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "diabetes": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dictate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dictator": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "diffuse": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dilute": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "diplomat": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "discern": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "disclosure": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "discontent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "discord": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "discrimination": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "disguise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "disintegrate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dismantle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dispense": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dispose": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dispute": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "disregard": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dissent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dissertation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dissident": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "distil": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "distort": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "distract": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "distress": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dock": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dole": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "doom": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dormant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dose": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "downgrade": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "doze": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "drastic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dread": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "drench": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "drift": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dub": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "durable": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "dysfunctional": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "eccentric": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "eclipse": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "elaborate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "elaborately": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "elasticity": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "electorate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "eligible": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "eliminate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "eloquent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "embargo": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "embark": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "embroidery": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "emergence": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "emit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "emulate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "enact": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "endeavor": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "endow": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "enforcement": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "engage": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "enlist": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "enrich": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "enroll": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "entail": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "envoy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "episode": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "equate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "equator": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "equity": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "erect": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "escalator": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "escort": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "essence": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ethic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "evacuate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "evasion": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "evenly": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "eventuate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "evoke": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "exceptional": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "excerpt": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "excessive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "exclamation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "executive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "exhaustive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "expense": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "experimental": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "explicit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "exposition": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "exquisite": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "extensive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "extravagant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "fabricate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "facility": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "fatigue": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "feat": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "feeble": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "fern": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "flank": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "flap": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "flattery": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "flip": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "flora": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "fluid": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "flush": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "flutter": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "forfeit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "form": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "formation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "former": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "formidable": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "fortify": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "foster": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "franchise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "frantic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "fray": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "freight": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "friction": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "fringe": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "frustration": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "furious": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "fuss": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "gainful": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "gasp": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "gauge": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "gland": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "gleam": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "glimpse": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "glitch": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "glitter": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "gloomy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "glory": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "glossary": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "gorge": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "gossamer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "grab": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "grant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "graze": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "grease": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "habitual": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "handy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "harass": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hardy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "haven": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hawk": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "haze": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hazy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "heading": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "heave": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hectic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "henceforth": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "herald": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hinder": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hint": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hitherto": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hostage": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hum": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "humane": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "humidity": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hurdle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "hurl": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "identical": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "idle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "illicit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "illuminate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "illusion": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "immersion": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "imminent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "impart": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "imperative": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "impetus": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "imposing": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "imposition": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "imprisonment": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "impromptu": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "improvise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "impulsive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "incentive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "incredibly": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "indication": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "indignant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "indispensable": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "indulge": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "inequality": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "inflict": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "informer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ingenious": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "inherent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "inhibit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "initiate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "inject": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "inquiry": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "inquisitive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "institutional": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "insulate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "insurance": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "intact": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "intelligible": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "intentional": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "interface": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "interrogate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "intervene": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "intricate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "intrigue": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "inventory": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "inviting": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "irrational": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "irritable": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "irritation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "jargon": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "jeopardize": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "jockey": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "jolly": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "junction": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "justify": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "lad": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "landmass": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "lash": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "layer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "leakage": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "lease": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "legacy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "legitimate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "liability": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "lieutenant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "liner": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "loan": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "logistics": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "lounge": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "lubricating": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "luminous": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "magistrate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "magnitude": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "majestic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "malice": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "malicious": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "malignant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "mandatory": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "manifestation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "manual": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "mar": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "martyrdom": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "masculine": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "mastery": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "means": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "mechanical": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "medication": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "menace": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "merchandise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "merger": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "merit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "metabolism": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "mighty": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "miniature": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "mock": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "modification": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "moisture": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "molecular": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "molten": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "momentarily": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "momentous": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "monumental": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "morale": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "mortgage": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "moss": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "mug": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "multitude": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "mutual": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "narration": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "narrative": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "negligible": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "node": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "nominal": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "notably": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "nourish": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "nurture": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "obey": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "obligation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "obliged": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "obscene": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "observatory": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "obsessive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "obstacle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "offspring": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "oily": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "operator": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ornamentation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "outrage": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "overall": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "overhaul": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "override": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "overseas": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "overstate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "overturn": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ozone layer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "panel": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "paradox": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "paranoid": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "parasite": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "pasture": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "patch": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "patrol": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "patronize": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "peddle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "peep": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "penalize": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "perch": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "permissive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "persecute": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "persevere": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "perspective": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "petition": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "photosynthesis": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "physician": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "pistol": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "plead": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "plight": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "poise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "pond": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ponder": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "porcelain": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "porch": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "portal": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "portfolio": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "portion": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "portray": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "postponement": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "prank": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "preacher": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "precedent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "predecessor": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "preferential": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "premise": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "preserve": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "prestigious": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "pretense": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "priests": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "primate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "primitive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "principal": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "probe": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "proceed": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "profitable": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "projection": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "prompt": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "prop": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "propagate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "propeller": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "proposition": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "prospect": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "prospective": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "prosthetic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "protest": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "provided": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "provision": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "provoke": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "proximate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "quest": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "radiant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ragged": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "raid": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ratification": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ration": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "rattle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "reciprocal": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "reckless": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "recognition": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "recruit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "rectify": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "redundant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "referendum": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "refine": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "refrain": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "refrigerator": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "refuge": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "refund": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "refute": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "regiment": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "regulatory": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "rehabilitate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "relentless": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "relic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "religious": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "reluctant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "remainder": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "remark": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "remedial": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "renovate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "renowned": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "repel": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "replica": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "representation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "reproach": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "reputable": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "reserved": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "reshuffle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "residential": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "resort": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "resourceful": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "restless": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "restraint": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "resume": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "retailer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "retaliate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "retarded": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "reversal": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "reverse": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "revive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "rhetorical": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "ritual": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "rival": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "rooster": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "roughly": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "royalty": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "rubber": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "rupture": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "salutation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sanction": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sanctuary": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sanitary": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sarcasm": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "satirical": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "scarp": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "scattered": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "scenic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "scorn": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "scrap": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "scratch": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "scrub": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "secular": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "seduce": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "seductive": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "segregation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "seminary": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sensational": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "separation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sequence": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "serving": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "setback": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "shatter": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "shed": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sheer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "shrewd": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "shrub": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sideways": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sinister": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "slack": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "slam": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "slip": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "slippery": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "slot": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "slump": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "snail": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "snatch": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sneak": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "snob": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sob": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sober": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "socket": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "solely": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "solicit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "solicitor": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "solidarity": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "solitude": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "somehow": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sophisticated": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sovereign": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sovereignty": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "spark": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "spectacle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "spectator": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "speculate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "spite": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "spore": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "spouse": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sprinkle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "squad": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stagger": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stalk": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stall": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stammer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stark": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "statute": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "steady": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "steer": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stereotype": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stifle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stigma": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stipulate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stout": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "strain": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "strait": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "strand": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stray": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "streak": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stretch": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "striking": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "strip": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stubborn": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stumble": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "stump": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "sturdy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "submarine": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "submission": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "subordination": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "subsidy": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "subsistence": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "succession": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "suite": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "superintendent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "superstitious": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "supervision": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "suppress": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "surpass": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "surveillance": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "susceptible": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "suspend": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "symbiotic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "symphony": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "symposium": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "symptom": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "syndicate": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "synonym": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tack": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tactic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tan": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tangle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tanker": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tape": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "taxation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tedious": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "temperament": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tempo": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "temporal": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tempt": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "temptation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tend": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tender": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tentative": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "testimony": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "thesis": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "thrifty": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "thrill": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "thriller": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "throne": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "thrust": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "torture": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tow": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tract": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "trail": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "transaction": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "transcend": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "transformation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "transient": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "transmit": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "traumatic": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tread": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "treasonous": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "treaty": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "trek": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "trench": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "trickle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tricky": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "trim": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "trivial": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tropical": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "trumpet": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tub": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tug": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tumble": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "tunnel": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "turbulence": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "turbulent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "turmoil": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "turnout": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "unanimous": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "underlying": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "undermine": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "undertaking": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "unleash": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "untangle": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "unveil": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "uranium": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vacant": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vacuum": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "valve": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vanish": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "variation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vegetation": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vein": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vent": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "venue": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "verdict": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "verge": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "versus": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "viable": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vibration": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vicious": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vicissitude": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "virgin": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vogue": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "volatility": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "vow": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "wage": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "weep": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "wharf": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "whereby": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "whip": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "wholesome": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "wilderness": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "withhold": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "withstand": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "witty": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "woo": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "wrench": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "wretched": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "yawn": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        },
+        "yield": {
+            "correct_count": 0,
+            "last_seen": 0,
+            "mistakes": 0
+        }
+    }
+}

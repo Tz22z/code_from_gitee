@@ -1,0 +1,2606 @@
+{
+    "abide": {
+        "mistakes": 0
+    },
+    "abort": {
+        "mistakes": 0
+    },
+    "abreast": {
+        "mistakes": 0
+    },
+    "abrupt": {
+        "mistakes": 1
+    },
+    "accessory": {
+        "mistakes": 0
+    },
+    "activate": {
+        "mistakes": 0
+    },
+    "acupuncture": {
+        "mistakes": 0
+    },
+    "adequacy": {
+        "mistakes": 0
+    },
+    "advent": {
+        "mistakes": 0
+    },
+    "adversary": {
+        "mistakes": 0
+    },
+    "adverse": {
+        "mistakes": 1
+    },
+    "affectionate": {
+        "mistakes": 1
+    },
+    "affiliate": {
+        "mistakes": 1
+    },
+    "affixation": {
+        "mistakes": 1
+    },
+    "afield": {
+        "mistakes": 2
+    },
+    "afloat": {
+        "mistakes": 0
+    },
+    "aggravate": {
+        "mistakes": 0
+    },
+    "agitate": {
+        "mistakes": 1
+    },
+    "agony": {
+        "mistakes": 0
+    },
+    "aide": {
+        "mistakes": 0
+    },
+    "algae": {
+        "mistakes": 1
+    },
+    "alleviate": {
+        "mistakes": 0
+    },
+    "alloy": {
+        "mistakes": 0
+    },
+    "allude": {
+        "mistakes": 1
+    },
+    "allure": {
+        "mistakes": 1
+    },
+    "allusion": {
+        "mistakes": 0
+    },
+    "aloft": {
+        "mistakes": 0
+    },
+    "alternate": {
+        "mistakes": 1
+    },
+    "amass": {
+        "mistakes": 0
+    },
+    "amiable": {
+        "mistakes": 0
+    },
+    "ammunition": {
+        "mistakes": 0
+    },
+    "analogue": {
+        "mistakes": 1
+    },
+    "analogy": {
+        "mistakes": 0
+    },
+    "anguish": {
+        "mistakes": 1
+    },
+    "annexation": {
+        "mistakes": 1
+    },
+    "antagonism": {
+        "mistakes": 0
+    },
+    "antonym": {
+        "mistakes": 0
+    },
+    "apparatus": {
+        "mistakes": 1
+    },
+    "appendix": {
+        "mistakes": 0
+    },
+    "appliance": {
+        "mistakes": 0
+    },
+    "applicable": {
+        "mistakes": 0
+    },
+    "appraise": {
+        "mistakes": 0
+    },
+    "apprentice": {
+        "mistakes": 0
+    },
+    "appropriate": {
+        "mistakes": 0
+    },
+    "arbitrarily": {
+        "mistakes": 0
+    },
+    "ardent": {
+        "mistakes": 0
+    },
+    "arena": {
+        "mistakes": 0
+    },
+    "arrogance": {
+        "mistakes": 0
+    },
+    "artery": {
+        "mistakes": 0
+    },
+    "articulate": {
+        "mistakes": 0
+    },
+    "artifact": {
+        "mistakes": 0
+    },
+    "artillery": {
+        "mistakes": 0
+    },
+    "ascend": {
+        "mistakes": 0
+    },
+    "ascendance": {
+        "mistakes": 0
+    },
+    "ascertain": {
+        "mistakes": 0
+    },
+    "ascribe": {
+        "mistakes": 0
+    },
+    "aspire": {
+        "mistakes": 0
+    },
+    "assembly": {
+        "mistakes": 0
+    },
+    "assert": {
+        "mistakes": 0
+    },
+    "assertive": {
+        "mistakes": 0
+    },
+    "assignment": {
+        "mistakes": 0
+    },
+    "assimilate": {
+        "mistakes": 0
+    },
+    "assortment": {
+        "mistakes": 0
+    },
+    "asylum": {
+        "mistakes": 0
+    },
+    "atrocious": {
+        "mistakes": 0
+    },
+    "attachment": {
+        "mistakes": 0
+    },
+    "authentic": {
+        "mistakes": 0
+    },
+    "autonomy": {
+        "mistakes": 0
+    },
+    "avail": {
+        "mistakes": 0
+    },
+    "avenue": {
+        "mistakes": 0
+    },
+    "avert": {
+        "mistakes": 0
+    },
+    "aviation": {
+        "mistakes": 0
+    },
+    "baffle": {
+        "mistakes": 0
+    },
+    "bail": {
+        "mistakes": 0
+    },
+    "banquet": {
+        "mistakes": 0
+    },
+    "bare": {
+        "mistakes": 0
+    },
+    "barge": {
+        "mistakes": 0
+    },
+    "barometer": {
+        "mistakes": 0
+    },
+    "barracks": {
+        "mistakes": 0
+    },
+    "batter": {
+        "mistakes": 0
+    },
+    "beset": {
+        "mistakes": 0
+    },
+    "besiege": {
+        "mistakes": 0
+    },
+    "beware": {
+        "mistakes": 0
+    },
+    "bewilderment": {
+        "mistakes": 0
+    },
+    "bibliography": {
+        "mistakes": 0
+    },
+    "binoculars": {
+        "mistakes": 0
+    },
+    "blanket": {
+        "mistakes": 0
+    },
+    "blast": {
+        "mistakes": 0
+    },
+    "blaze": {
+        "mistakes": 0
+    },
+    "bleach": {
+        "mistakes": 0
+    },
+    "bleak": {
+        "mistakes": 0
+    },
+    "blush": {
+        "mistakes": 0
+    },
+    "boast": {
+        "mistakes": 0
+    },
+    "bolster": {
+        "mistakes": 0
+    },
+    "boost": {
+        "mistakes": 0
+    },
+    "bout": {
+        "mistakes": 0
+    },
+    "bowel": {
+        "mistakes": 0
+    },
+    "branch": {
+        "mistakes": 0
+    },
+    "breach": {
+        "mistakes": 0
+    },
+    "brewery": {
+        "mistakes": 0
+    },
+    "brigade": {
+        "mistakes": 0
+    },
+    "brink": {
+        "mistakes": 0
+    },
+    "brisk": {
+        "mistakes": 0
+    },
+    "broad": {
+        "mistakes": 0
+    },
+    "brood": {
+        "mistakes": 0
+    },
+    "browser": {
+        "mistakes": 0
+    },
+    "bruise": {
+        "mistakes": 0
+    },
+    "brutal": {
+        "mistakes": 0
+    },
+    "bump": {
+        "mistakes": 0
+    },
+    "buoyant": {
+        "mistakes": 0
+    },
+    "canoe": {
+        "mistakes": 1
+    },
+    "caption": {
+        "mistakes": 0
+    },
+    "captive": {
+        "mistakes": 0
+    },
+    "carrier": {
+        "mistakes": 0
+    },
+    "cartel": {
+        "mistakes": 0
+    },
+    "carton": {
+        "mistakes": 0
+    },
+    "casual": {
+        "mistakes": 0
+    },
+    "casualty": {
+        "mistakes": 0
+    },
+    "cater": {
+        "mistakes": 0
+    },
+    "cathedral": {
+        "mistakes": 0
+    },
+    "cemetery": {
+        "mistakes": 0
+    },
+    "ceramic": {
+        "mistakes": 0
+    },
+    "certify": {
+        "mistakes": 0
+    },
+    "chapel": {
+        "mistakes": 0
+    },
+    "character": {
+        "mistakes": 0
+    },
+    "charter": {
+        "mistakes": 0
+    },
+    "chief": {
+        "mistakes": 0
+    },
+    "choir": {
+        "mistakes": 0
+    },
+    "chop": {
+        "mistakes": 0
+    },
+    "chunk": {
+        "mistakes": 0
+    },
+    "cirrus": {
+        "mistakes": 0
+    },
+    "civic": {
+        "mistakes": 0
+    },
+    "clan": {
+        "mistakes": 0
+    },
+    "cleanse": {
+        "mistakes": 0
+    },
+    "clearance": {
+        "mistakes": 0
+    },
+    "clench": {
+        "mistakes": 0
+    },
+    "clergy": {
+        "mistakes": 0
+    },
+    "clerical": {
+        "mistakes": 0
+    },
+    "climatic": {
+        "mistakes": 0
+    },
+    "clinical": {
+        "mistakes": 0
+    },
+    "cloak": {
+        "mistakes": 0
+    },
+    "clog": {
+        "mistakes": 0
+    },
+    "closet": {
+        "mistakes": 0
+    },
+    "coalition": {
+        "mistakes": 0
+    },
+    "collective": {
+        "mistakes": 0
+    },
+    "collision": {
+        "mistakes": 0
+    },
+    "columnist": {
+        "mistakes": 0
+    },
+    "comic": {
+        "mistakes": 0
+    },
+    "commemorate": {
+        "mistakes": 0
+    },
+    "commercial": {
+        "mistakes": 0
+    },
+    "commitment": {
+        "mistakes": 0
+    },
+    "commonplace": {
+        "mistakes": 0
+    },
+    "community": {
+        "mistakes": 0
+    },
+    "commuter": {
+        "mistakes": 0
+    },
+    "companion": {
+        "mistakes": 0
+    },
+    "compartment": {
+        "mistakes": 0
+    },
+    "compatible": {
+        "mistakes": 0
+    },
+    "compel": {
+        "mistakes": 0
+    },
+    "competence": {
+        "mistakes": 0
+    },
+    "complement": {
+        "mistakes": 0
+    },
+    "composite": {
+        "mistakes": 0
+    },
+    "compress": {
+        "mistakes": 0
+    },
+    "comprise": {
+        "mistakes": 0
+    },
+    "comrade": {
+        "mistakes": 0
+    },
+    "conceal": {
+        "mistakes": 0
+    },
+    "concede": {
+        "mistakes": 0
+    },
+    "conceit": {
+        "mistakes": 0
+    },
+    "condolence": {
+        "mistakes": 0
+    },
+    "conducive": {
+        "mistakes": 0
+    },
+    "confer": {
+        "mistakes": 0
+    },
+    "confide": {
+        "mistakes": 0
+    },
+    "conform": {
+        "mistakes": 0
+    },
+    "conformity": {
+        "mistakes": 0
+    },
+    "congressional": {
+        "mistakes": 0
+    },
+    "consistency": {
+        "mistakes": 0
+    },
+    "conspicuous": {
+        "mistakes": 0
+    },
+    "constituency": {
+        "mistakes": 0
+    },
+    "constitute": {
+        "mistakes": 0
+    },
+    "consul": {
+        "mistakes": 0
+    },
+    "contemplative": {
+        "mistakes": 0
+    },
+    "contend": {
+        "mistakes": 0
+    },
+    "contrive": {
+        "mistakes": 0
+    },
+    "controversial": {
+        "mistakes": 0
+    },
+    "controversy": {
+        "mistakes": 0
+    },
+    "conventional": {
+        "mistakes": 0
+    },
+    "convey": {
+        "mistakes": 0
+    },
+    "convicted": {
+        "mistakes": 0
+    },
+    "cop": {
+        "mistakes": 0
+    },
+    "coral": {
+        "mistakes": 0
+    },
+    "core": {
+        "mistakes": 0
+    },
+    "corporal": {
+        "mistakes": 0
+    },
+    "corrosion": {
+        "mistakes": 0
+    },
+    "cosmetic": {
+        "mistakes": 0
+    },
+    "cosmopolitan": {
+        "mistakes": 0
+    },
+    "counsel": {
+        "mistakes": 0
+    },
+    "counterfeit": {
+        "mistakes": 0
+    },
+    "courtesy": {
+        "mistakes": 0
+    },
+    "craft": {
+        "mistakes": 0
+    },
+    "crate": {
+        "mistakes": 0
+    },
+    "crave": {
+        "mistakes": 0
+    },
+    "credential": {
+        "mistakes": 0
+    },
+    "crevice": {
+        "mistakes": 0
+    },
+    "crop": {
+        "mistakes": 0
+    },
+    "crouch": {
+        "mistakes": 0
+    },
+    "crow": {
+        "mistakes": 0
+    },
+    "crowd": {
+        "mistakes": 0
+    },
+    "crows": {
+        "mistakes": 0
+    },
+    "crude": {
+        "mistakes": 0
+    },
+    "culminate": {
+        "mistakes": 0
+    },
+    "cumulative": {
+        "mistakes": 0
+    },
+    "cunning": {
+        "mistakes": 0
+    },
+    "curb": {
+        "mistakes": 0
+    },
+    "curtail": {
+        "mistakes": 0
+    },
+    "custody": {
+        "mistakes": 0
+    },
+    "cyber": {
+        "mistakes": 0
+    },
+    "cyber-": {
+        "mistakes": 0
+    },
+    "cylinder": {
+        "mistakes": 0
+    },
+    "dazzle": {
+        "mistakes": 0
+    },
+    "debris": {
+        "mistakes": 0
+    },
+    "decade": {
+        "mistakes": 0
+    },
+    "decent": {
+        "mistakes": 0
+    },
+    "decomposition": {
+        "mistakes": 0
+    },
+    "decree": {
+        "mistakes": 0
+    },
+    "dedication": {
+        "mistakes": 0
+    },
+    "deduct": {
+        "mistakes": 0
+    },
+    "deduction": {
+        "mistakes": 0
+    },
+    "deductive": {
+        "mistakes": 0
+    },
+    "definite": {
+        "mistakes": 0
+    },
+    "degeneration": {
+        "mistakes": 0
+    },
+    "degradation": {
+        "mistakes": 0
+    },
+    "delicate": {
+        "mistakes": 0
+    },
+    "delude": {
+        "mistakes": 0
+    },
+    "dense": {
+        "mistakes": 0
+    },
+    "denunciation": {
+        "mistakes": 0
+    },
+    "deplore": {
+        "mistakes": 0
+    },
+    "deploy": {
+        "mistakes": 0
+    },
+    "depreciate": {
+        "mistakes": 0
+    },
+    "depression": {
+        "mistakes": 0
+    },
+    "deputy": {
+        "mistakes": 0
+    },
+    "deregulate": {
+        "mistakes": 0
+    },
+    "designate": {
+        "mistakes": 0
+    },
+    "desolate": {
+        "mistakes": 0
+    },
+    "despise": {
+        "mistakes": 0
+    },
+    "destructive": {
+        "mistakes": 0
+    },
+    "detain": {
+        "mistakes": 0
+    },
+    "detention": {
+        "mistakes": 0
+    },
+    "deter": {
+        "mistakes": 0
+    },
+    "detergent": {
+        "mistakes": 0
+    },
+    "deteriorate": {
+        "mistakes": 0
+    },
+    "deterrent": {
+        "mistakes": 0
+    },
+    "deviate": {
+        "mistakes": 0
+    },
+    "diabetes": {
+        "mistakes": 0
+    },
+    "dictate": {
+        "mistakes": 0
+    },
+    "dictator": {
+        "mistakes": 0
+    },
+    "diffuse": {
+        "mistakes": 0
+    },
+    "dilute": {
+        "mistakes": 0
+    },
+    "diplomat": {
+        "mistakes": 0
+    },
+    "discern": {
+        "mistakes": 0
+    },
+    "disclosure": {
+        "mistakes": 0
+    },
+    "discontent": {
+        "mistakes": 0
+    },
+    "discord": {
+        "mistakes": 0
+    },
+    "discrimination": {
+        "mistakes": 0
+    },
+    "disguise": {
+        "mistakes": 0
+    },
+    "disintegrate": {
+        "mistakes": 0
+    },
+    "dismantle": {
+        "mistakes": 0
+    },
+    "dispense": {
+        "mistakes": 0
+    },
+    "dispose": {
+        "mistakes": 0
+    },
+    "dispute": {
+        "mistakes": 0
+    },
+    "disregard": {
+        "mistakes": 0
+    },
+    "dissent": {
+        "mistakes": 0
+    },
+    "dissertation": {
+        "mistakes": 0
+    },
+    "dissident": {
+        "mistakes": 0
+    },
+    "distil": {
+        "mistakes": 0
+    },
+    "distort": {
+        "mistakes": 0
+    },
+    "distract": {
+        "mistakes": 0
+    },
+    "distress": {
+        "mistakes": 0
+    },
+    "dock": {
+        "mistakes": 0
+    },
+    "dole": {
+        "mistakes": 0
+    },
+    "doom": {
+        "mistakes": 0
+    },
+    "dormant": {
+        "mistakes": 0
+    },
+    "dose": {
+        "mistakes": 0
+    },
+    "downgrade": {
+        "mistakes": 0
+    },
+    "doze": {
+        "mistakes": 0
+    },
+    "drastic": {
+        "mistakes": 0
+    },
+    "dread": {
+        "mistakes": 1
+    },
+    "drench": {
+        "mistakes": 0
+    },
+    "drift": {
+        "mistakes": 0
+    },
+    "dub": {
+        "mistakes": 0
+    },
+    "durable": {
+        "mistakes": 0
+    },
+    "dysfunctional": {
+        "mistakes": 0
+    },
+    "eccentric": {
+        "mistakes": 0
+    },
+    "eclipse": {
+        "mistakes": 0
+    },
+    "elaborate": {
+        "mistakes": 0
+    },
+    "elaborately": {
+        "mistakes": 0
+    },
+    "elasticity": {
+        "mistakes": 0
+    },
+    "electorate": {
+        "mistakes": 0
+    },
+    "eligible": {
+        "mistakes": 0
+    },
+    "eliminate": {
+        "mistakes": 0
+    },
+    "eloquent": {
+        "mistakes": 0
+    },
+    "embargo": {
+        "mistakes": 0
+    },
+    "embark": {
+        "mistakes": 0
+    },
+    "embroidery": {
+        "mistakes": 0
+    },
+    "emergence": {
+        "mistakes": 0
+    },
+    "emit": {
+        "mistakes": 0
+    },
+    "emulate": {
+        "mistakes": 0
+    },
+    "enact": {
+        "mistakes": 0
+    },
+    "endeavor": {
+        "mistakes": 0
+    },
+    "endow": {
+        "mistakes": 0
+    },
+    "enforcement": {
+        "mistakes": 0
+    },
+    "engage": {
+        "mistakes": 0
+    },
+    "enlist": {
+        "mistakes": 0
+    },
+    "enrich": {
+        "mistakes": 1
+    },
+    "enroll": {
+        "mistakes": 1
+    },
+    "entail": {
+        "mistakes": 0
+    },
+    "envoy": {
+        "mistakes": 0
+    },
+    "episode": {
+        "mistakes": 0
+    },
+    "equate": {
+        "mistakes": 0
+    },
+    "equator": {
+        "mistakes": 0
+    },
+    "equity": {
+        "mistakes": 0
+    },
+    "erect": {
+        "mistakes": 0
+    },
+    "escalator": {
+        "mistakes": 0
+    },
+    "escort": {
+        "mistakes": 0
+    },
+    "essence": {
+        "mistakes": 0
+    },
+    "ethic": {
+        "mistakes": 0
+    },
+    "evacuate": {
+        "mistakes": 0
+    },
+    "evasion": {
+        "mistakes": 0
+    },
+    "evenly": {
+        "mistakes": 0
+    },
+    "eventuate": {
+        "mistakes": 0
+    },
+    "evoke": {
+        "mistakes": 0
+    },
+    "exceptional": {
+        "mistakes": 0
+    },
+    "excerpt": {
+        "mistakes": 0
+    },
+    "excessive": {
+        "mistakes": 0
+    },
+    "exclamation": {
+        "mistakes": 0
+    },
+    "executive": {
+        "mistakes": 0
+    },
+    "exhaustive": {
+        "mistakes": 0
+    },
+    "expense": {
+        "mistakes": 0
+    },
+    "experimental": {
+        "mistakes": 0
+    },
+    "explicit": {
+        "mistakes": 0
+    },
+    "exposition": {
+        "mistakes": 0
+    },
+    "exquisite": {
+        "mistakes": 0
+    },
+    "extensive": {
+        "mistakes": 0
+    },
+    "extravagant": {
+        "mistakes": 0
+    },
+    "fabricate": {
+        "mistakes": 0
+    },
+    "facility": {
+        "mistakes": 0
+    },
+    "fatigue": {
+        "mistakes": 0
+    },
+    "feat": {
+        "mistakes": 0
+    },
+    "feeble": {
+        "mistakes": 0
+    },
+    "fern": {
+        "mistakes": 0
+    },
+    "flank": {
+        "mistakes": 0
+    },
+    "flap": {
+        "mistakes": 0
+    },
+    "flattery": {
+        "mistakes": 0
+    },
+    "flip": {
+        "mistakes": 0
+    },
+    "flora": {
+        "mistakes": 0
+    },
+    "fluid": {
+        "mistakes": 0
+    },
+    "flush": {
+        "mistakes": 0
+    },
+    "flutter": {
+        "mistakes": 1
+    },
+    "forfeit": {
+        "mistakes": 0
+    },
+    "form": {
+        "mistakes": 0
+    },
+    "formation": {
+        "mistakes": 0
+    },
+    "former": {
+        "mistakes": 0
+    },
+    "formidable": {
+        "mistakes": 0
+    },
+    "fortify": {
+        "mistakes": 0
+    },
+    "foster": {
+        "mistakes": 0
+    },
+    "franchise": {
+        "mistakes": 0
+    },
+    "frantic": {
+        "mistakes": 0
+    },
+    "fray": {
+        "mistakes": 0
+    },
+    "freight": {
+        "mistakes": 0
+    },
+    "friction": {
+        "mistakes": 0
+    },
+    "fringe": {
+        "mistakes": 0
+    },
+    "frustration": {
+        "mistakes": 0
+    },
+    "furious": {
+        "mistakes": 0
+    },
+    "fuss": {
+        "mistakes": 0
+    },
+    "gainful": {
+        "mistakes": 0
+    },
+    "gasp": {
+        "mistakes": 0
+    },
+    "gauge": {
+        "mistakes": 0
+    },
+    "gland": {
+        "mistakes": 0
+    },
+    "gleam": {
+        "mistakes": 0
+    },
+    "glimpse": {
+        "mistakes": 0
+    },
+    "glitch": {
+        "mistakes": 0
+    },
+    "glitter": {
+        "mistakes": 0
+    },
+    "gloomy": {
+        "mistakes": 0
+    },
+    "glory": {
+        "mistakes": 0
+    },
+    "glossary": {
+        "mistakes": 0
+    },
+    "gorge": {
+        "mistakes": 0
+    },
+    "gossamer": {
+        "mistakes": 0
+    },
+    "grab": {
+        "mistakes": 0
+    },
+    "grant": {
+        "mistakes": 0
+    },
+    "graze": {
+        "mistakes": 0
+    },
+    "grease": {
+        "mistakes": 0
+    },
+    "habitual": {
+        "mistakes": 0
+    },
+    "handy": {
+        "mistakes": 0
+    },
+    "harass": {
+        "mistakes": 0
+    },
+    "hardy": {
+        "mistakes": 0
+    },
+    "haven": {
+        "mistakes": 0
+    },
+    "hawk": {
+        "mistakes": 0
+    },
+    "haze": {
+        "mistakes": 0
+    },
+    "hazy": {
+        "mistakes": 0
+    },
+    "heading": {
+        "mistakes": 0
+    },
+    "heave": {
+        "mistakes": 0
+    },
+    "hectic": {
+        "mistakes": 0
+    },
+    "henceforth": {
+        "mistakes": 0
+    },
+    "herald": {
+        "mistakes": 0
+    },
+    "hinder": {
+        "mistakes": 0
+    },
+    "hint": {
+        "mistakes": 0
+    },
+    "hitherto": {
+        "mistakes": 0
+    },
+    "hostage": {
+        "mistakes": 0
+    },
+    "hum": {
+        "mistakes": 0
+    },
+    "humane": {
+        "mistakes": 0
+    },
+    "humidity": {
+        "mistakes": 0
+    },
+    "hurdle": {
+        "mistakes": 0
+    },
+    "hurl": {
+        "mistakes": 0
+    },
+    "identical": {
+        "mistakes": 0
+    },
+    "idle": {
+        "mistakes": 0
+    },
+    "illicit": {
+        "mistakes": 0
+    },
+    "illuminate": {
+        "mistakes": 0
+    },
+    "illusion": {
+        "mistakes": 0
+    },
+    "immersion": {
+        "mistakes": 0
+    },
+    "imminent": {
+        "mistakes": 0
+    },
+    "impart": {
+        "mistakes": 0
+    },
+    "imperative": {
+        "mistakes": 0
+    },
+    "impetus": {
+        "mistakes": 0
+    },
+    "imposing": {
+        "mistakes": 0
+    },
+    "imposition": {
+        "mistakes": 0
+    },
+    "imprisonment": {
+        "mistakes": 0
+    },
+    "impromptu": {
+        "mistakes": 0
+    },
+    "improvise": {
+        "mistakes": 0
+    },
+    "impulsive": {
+        "mistakes": 0
+    },
+    "incentive": {
+        "mistakes": 0
+    },
+    "incredibly": {
+        "mistakes": 0
+    },
+    "indication": {
+        "mistakes": 0
+    },
+    "indignant": {
+        "mistakes": 0
+    },
+    "indispensable": {
+        "mistakes": 0
+    },
+    "indulge": {
+        "mistakes": 0
+    },
+    "inequality": {
+        "mistakes": 0
+    },
+    "inflict": {
+        "mistakes": 0
+    },
+    "informer": {
+        "mistakes": 0
+    },
+    "ingenious": {
+        "mistakes": 0
+    },
+    "inherent": {
+        "mistakes": 0
+    },
+    "inhibit": {
+        "mistakes": 0
+    },
+    "initiate": {
+        "mistakes": 0
+    },
+    "inject": {
+        "mistakes": 0
+    },
+    "inquiry": {
+        "mistakes": 0
+    },
+    "inquisitive": {
+        "mistakes": 0
+    },
+    "institutional": {
+        "mistakes": 0
+    },
+    "insulate": {
+        "mistakes": 0
+    },
+    "insurance": {
+        "mistakes": 0
+    },
+    "intact": {
+        "mistakes": 0
+    },
+    "intelligible": {
+        "mistakes": 0
+    },
+    "intentional": {
+        "mistakes": 0
+    },
+    "interface": {
+        "mistakes": 0
+    },
+    "interrogate": {
+        "mistakes": 0
+    },
+    "intervene": {
+        "mistakes": 0
+    },
+    "intricate": {
+        "mistakes": 0
+    },
+    "intrigue": {
+        "mistakes": 0
+    },
+    "inventory": {
+        "mistakes": 0
+    },
+    "inviting": {
+        "mistakes": 0
+    },
+    "irrational": {
+        "mistakes": 0
+    },
+    "irritable": {
+        "mistakes": 0
+    },
+    "irritation": {
+        "mistakes": 0
+    },
+    "jargon": {
+        "mistakes": 0
+    },
+    "jeopardize": {
+        "mistakes": 0
+    },
+    "jockey": {
+        "mistakes": 0
+    },
+    "jolly": {
+        "mistakes": 0
+    },
+    "junction": {
+        "mistakes": 0
+    },
+    "justify": {
+        "mistakes": 0
+    },
+    "lad": {
+        "mistakes": 0
+    },
+    "landmass": {
+        "mistakes": 0
+    },
+    "lash": {
+        "mistakes": 0
+    },
+    "layer": {
+        "mistakes": 0
+    },
+    "leakage": {
+        "mistakes": 0
+    },
+    "lease": {
+        "mistakes": 0
+    },
+    "legacy": {
+        "mistakes": 0
+    },
+    "legitimate": {
+        "mistakes": 0
+    },
+    "liability": {
+        "mistakes": 0
+    },
+    "lieutenant": {
+        "mistakes": 0
+    },
+    "liner": {
+        "mistakes": 0
+    },
+    "loan": {
+        "mistakes": 0
+    },
+    "logistics": {
+        "mistakes": 0
+    },
+    "lounge": {
+        "mistakes": 0
+    },
+    "lubricating": {
+        "mistakes": 0
+    },
+    "luminous": {
+        "mistakes": 0
+    },
+    "magistrate": {
+        "mistakes": 0
+    },
+    "magnitude": {
+        "mistakes": 0
+    },
+    "majestic": {
+        "mistakes": 0
+    },
+    "malice": {
+        "mistakes": 0
+    },
+    "malicious": {
+        "mistakes": 0
+    },
+    "malignant": {
+        "mistakes": 0
+    },
+    "mandatory": {
+        "mistakes": 0
+    },
+    "manifestation": {
+        "mistakes": 0
+    },
+    "manual": {
+        "mistakes": 0
+    },
+    "mar": {
+        "mistakes": 0
+    },
+    "martyrdom": {
+        "mistakes": 0
+    },
+    "masculine": {
+        "mistakes": 0
+    },
+    "mastery": {
+        "mistakes": 0
+    },
+    "means": {
+        "mistakes": 0
+    },
+    "mechanical": {
+        "mistakes": 0
+    },
+    "medication": {
+        "mistakes": 0
+    },
+    "menace": {
+        "mistakes": 0
+    },
+    "merchandise": {
+        "mistakes": 0
+    },
+    "merger": {
+        "mistakes": 0
+    },
+    "merit": {
+        "mistakes": 0
+    },
+    "metabolism": {
+        "mistakes": 0
+    },
+    "mighty": {
+        "mistakes": 0
+    },
+    "miniature": {
+        "mistakes": 0
+    },
+    "mock": {
+        "mistakes": 0
+    },
+    "modification": {
+        "mistakes": 0
+    },
+    "moisture": {
+        "mistakes": 0
+    },
+    "molecular": {
+        "mistakes": 0
+    },
+    "molten": {
+        "mistakes": 0
+    },
+    "momentarily": {
+        "mistakes": 0
+    },
+    "momentous": {
+        "mistakes": 0
+    },
+    "monumental": {
+        "mistakes": 0
+    },
+    "morale": {
+        "mistakes": 0
+    },
+    "mortgage": {
+        "mistakes": 0
+    },
+    "moss": {
+        "mistakes": 0
+    },
+    "mug": {
+        "mistakes": 0
+    },
+    "multitude": {
+        "mistakes": 0
+    },
+    "mutual": {
+        "mistakes": 0
+    },
+    "narration": {
+        "mistakes": 0
+    },
+    "narrative": {
+        "mistakes": 0
+    },
+    "negligible": {
+        "mistakes": 0
+    },
+    "node": {
+        "mistakes": 0
+    },
+    "nominal": {
+        "mistakes": 0
+    },
+    "notably": {
+        "mistakes": 0
+    },
+    "nourish": {
+        "mistakes": 0
+    },
+    "nurture": {
+        "mistakes": 0
+    },
+    "obey": {
+        "mistakes": 0
+    },
+    "obligation": {
+        "mistakes": 0
+    },
+    "obliged": {
+        "mistakes": 0
+    },
+    "obscene": {
+        "mistakes": 0
+    },
+    "observatory": {
+        "mistakes": 0
+    },
+    "obsessive": {
+        "mistakes": 0
+    },
+    "obstacle": {
+        "mistakes": 0
+    },
+    "offspring": {
+        "mistakes": 0
+    },
+    "oily": {
+        "mistakes": 0
+    },
+    "operator": {
+        "mistakes": 0
+    },
+    "ornamentation": {
+        "mistakes": 0
+    },
+    "outrage": {
+        "mistakes": 0
+    },
+    "overall": {
+        "mistakes": 0
+    },
+    "overhaul": {
+        "mistakes": 0
+    },
+    "override": {
+        "mistakes": 0
+    },
+    "overseas": {
+        "mistakes": 0
+    },
+    "overstate": {
+        "mistakes": 0
+    },
+    "overturn": {
+        "mistakes": 0
+    },
+    "ozone layer": {
+        "mistakes": 0
+    },
+    "panel": {
+        "mistakes": 0
+    },
+    "paradox": {
+        "mistakes": 0
+    },
+    "paranoid": {
+        "mistakes": 0
+    },
+    "parasite": {
+        "mistakes": 0
+    },
+    "pasture": {
+        "mistakes": 0
+    },
+    "patch": {
+        "mistakes": 0
+    },
+    "patrol": {
+        "mistakes": 0
+    },
+    "patronize": {
+        "mistakes": 0
+    },
+    "peddle": {
+        "mistakes": 0
+    },
+    "peep": {
+        "mistakes": 0
+    },
+    "penalize": {
+        "mistakes": 0
+    },
+    "perch": {
+        "mistakes": 0
+    },
+    "permissive": {
+        "mistakes": 0
+    },
+    "persecute": {
+        "mistakes": 0
+    },
+    "persevere": {
+        "mistakes": 0
+    },
+    "perspective": {
+        "mistakes": 0
+    },
+    "petition": {
+        "mistakes": 0
+    },
+    "photosynthesis": {
+        "mistakes": 0
+    },
+    "physician": {
+        "mistakes": 0
+    },
+    "pistol": {
+        "mistakes": 0
+    },
+    "plead": {
+        "mistakes": 0
+    },
+    "plight": {
+        "mistakes": 0
+    },
+    "poise": {
+        "mistakes": 0
+    },
+    "pond": {
+        "mistakes": 0
+    },
+    "ponder": {
+        "mistakes": 0
+    },
+    "porcelain": {
+        "mistakes": 0
+    },
+    "porch": {
+        "mistakes": 0
+    },
+    "portal": {
+        "mistakes": 0
+    },
+    "portfolio": {
+        "mistakes": 0
+    },
+    "portion": {
+        "mistakes": 0
+    },
+    "portray": {
+        "mistakes": 0
+    },
+    "postponement": {
+        "mistakes": 0
+    },
+    "prank": {
+        "mistakes": 0
+    },
+    "preacher": {
+        "mistakes": 0
+    },
+    "precedent": {
+        "mistakes": 0
+    },
+    "predecessor": {
+        "mistakes": 0
+    },
+    "preferential": {
+        "mistakes": 0
+    },
+    "premise": {
+        "mistakes": 0
+    },
+    "preserve": {
+        "mistakes": 0
+    },
+    "prestigious": {
+        "mistakes": 0
+    },
+    "pretense": {
+        "mistakes": 0
+    },
+    "priests": {
+        "mistakes": 0
+    },
+    "primate": {
+        "mistakes": 0
+    },
+    "primitive": {
+        "mistakes": 0
+    },
+    "principal": {
+        "mistakes": 0
+    },
+    "probe": {
+        "mistakes": 0
+    },
+    "proceed": {
+        "mistakes": 0
+    },
+    "profitable": {
+        "mistakes": 0
+    },
+    "projection": {
+        "mistakes": 0
+    },
+    "prompt": {
+        "mistakes": 0
+    },
+    "prop": {
+        "mistakes": 0
+    },
+    "propagate": {
+        "mistakes": 0
+    },
+    "propeller": {
+        "mistakes": 0
+    },
+    "proposition": {
+        "mistakes": 0
+    },
+    "prospect": {
+        "mistakes": 0
+    },
+    "prospective": {
+        "mistakes": 0
+    },
+    "prosthetic": {
+        "mistakes": 0
+    },
+    "protest": {
+        "mistakes": 0
+    },
+    "provided": {
+        "mistakes": 0
+    },
+    "provision": {
+        "mistakes": 0
+    },
+    "provoke": {
+        "mistakes": 0
+    },
+    "proximate": {
+        "mistakes": 0
+    },
+    "quest": {
+        "mistakes": 0
+    },
+    "radiant": {
+        "mistakes": 0
+    },
+    "ragged": {
+        "mistakes": 0
+    },
+    "raid": {
+        "mistakes": 0
+    },
+    "ratification": {
+        "mistakes": 0
+    },
+    "ration": {
+        "mistakes": 0
+    },
+    "rattle": {
+        "mistakes": 0
+    },
+    "reciprocal": {
+        "mistakes": 0
+    },
+    "reckless": {
+        "mistakes": 0
+    },
+    "recognition": {
+        "mistakes": 0
+    },
+    "recruit": {
+        "mistakes": 0
+    },
+    "rectify": {
+        "mistakes": 0
+    },
+    "redundant": {
+        "mistakes": 0
+    },
+    "referendum": {
+        "mistakes": 0
+    },
+    "refine": {
+        "mistakes": 0
+    },
+    "refrain": {
+        "mistakes": 0
+    },
+    "refrigerator": {
+        "mistakes": 0
+    },
+    "refuge": {
+        "mistakes": 0
+    },
+    "refund": {
+        "mistakes": 0
+    },
+    "refute": {
+        "mistakes": 0
+    },
+    "regiment": {
+        "mistakes": 0
+    },
+    "regulatory": {
+        "mistakes": 0
+    },
+    "rehabilitate": {
+        "mistakes": 0
+    },
+    "relentless": {
+        "mistakes": 0
+    },
+    "relic": {
+        "mistakes": 0
+    },
+    "religious": {
+        "mistakes": 0
+    },
+    "reluctant": {
+        "mistakes": 0
+    },
+    "remainder": {
+        "mistakes": 0
+    },
+    "remark": {
+        "mistakes": 0
+    },
+    "remedial": {
+        "mistakes": 0
+    },
+    "renovate": {
+        "mistakes": 0
+    },
+    "renowned": {
+        "mistakes": 0
+    },
+    "repel": {
+        "mistakes": 0
+    },
+    "replica": {
+        "mistakes": 0
+    },
+    "representation": {
+        "mistakes": 0
+    },
+    "reproach": {
+        "mistakes": 0
+    },
+    "reputable": {
+        "mistakes": 0
+    },
+    "reserved": {
+        "mistakes": 0
+    },
+    "reshuffle": {
+        "mistakes": 0
+    },
+    "residential": {
+        "mistakes": 0
+    },
+    "resort": {
+        "mistakes": 0
+    },
+    "resourceful": {
+        "mistakes": 0
+    },
+    "restless": {
+        "mistakes": 0
+    },
+    "restraint": {
+        "mistakes": 0
+    },
+    "resume": {
+        "mistakes": 0
+    },
+    "retailer": {
+        "mistakes": 0
+    },
+    "retaliate": {
+        "mistakes": 0
+    },
+    "retarded": {
+        "mistakes": 0
+    },
+    "reversal": {
+        "mistakes": 0
+    },
+    "reverse": {
+        "mistakes": 0
+    },
+    "revive": {
+        "mistakes": 0
+    },
+    "rhetorical": {
+        "mistakes": 0
+    },
+    "ritual": {
+        "mistakes": 0
+    },
+    "rival": {
+        "mistakes": 0
+    },
+    "rooster": {
+        "mistakes": 0
+    },
+    "roughly": {
+        "mistakes": 0
+    },
+    "royalty": {
+        "mistakes": 0
+    },
+    "rubber": {
+        "mistakes": 0
+    },
+    "rupture": {
+        "mistakes": 0
+    },
+    "salutation": {
+        "mistakes": 0
+    },
+    "sanction": {
+        "mistakes": 0
+    },
+    "sanctuary": {
+        "mistakes": 0
+    },
+    "sanitary": {
+        "mistakes": 0
+    },
+    "sarcasm": {
+        "mistakes": 0
+    },
+    "satirical": {
+        "mistakes": 0
+    },
+    "scarp": {
+        "mistakes": 0
+    },
+    "scattered": {
+        "mistakes": 0
+    },
+    "scenic": {
+        "mistakes": 0
+    },
+    "scorn": {
+        "mistakes": 0
+    },
+    "scrap": {
+        "mistakes": 0
+    },
+    "scratch": {
+        "mistakes": 0
+    },
+    "scrub": {
+        "mistakes": 0
+    },
+    "secular": {
+        "mistakes": 0
+    },
+    "seduce": {
+        "mistakes": 0
+    },
+    "seductive": {
+        "mistakes": 0
+    },
+    "segregation": {
+        "mistakes": 0
+    },
+    "seminary": {
+        "mistakes": 0
+    },
+    "sensational": {
+        "mistakes": 0
+    },
+    "separation": {
+        "mistakes": 0
+    },
+    "sequence": {
+        "mistakes": 0
+    },
+    "serving": {
+        "mistakes": 0
+    },
+    "setback": {
+        "mistakes": 0
+    },
+    "shatter": {
+        "mistakes": 0
+    },
+    "shed": {
+        "mistakes": 0
+    },
+    "sheer": {
+        "mistakes": 0
+    },
+    "shrewd": {
+        "mistakes": 0
+    },
+    "shrub": {
+        "mistakes": 0
+    },
+    "sideways": {
+        "mistakes": 0
+    },
+    "sinister": {
+        "mistakes": 0
+    },
+    "slack": {
+        "mistakes": 0
+    },
+    "slam": {
+        "mistakes": 0
+    },
+    "slip": {
+        "mistakes": 0
+    },
+    "slippery": {
+        "mistakes": 0
+    },
+    "slot": {
+        "mistakes": 0
+    },
+    "slump": {
+        "mistakes": 0
+    },
+    "snail": {
+        "mistakes": 0
+    },
+    "snatch": {
+        "mistakes": 0
+    },
+    "sneak": {
+        "mistakes": 0
+    },
+    "snob": {
+        "mistakes": 0
+    },
+    "sob": {
+        "mistakes": 0
+    },
+    "sober": {
+        "mistakes": 0
+    },
+    "socket": {
+        "mistakes": 0
+    },
+    "solely": {
+        "mistakes": 0
+    },
+    "solicit": {
+        "mistakes": 0
+    },
+    "solicitor": {
+        "mistakes": 0
+    },
+    "solidarity": {
+        "mistakes": 0
+    },
+    "solitude": {
+        "mistakes": 0
+    },
+    "somehow": {
+        "mistakes": 0
+    },
+    "sophisticated": {
+        "mistakes": 0
+    },
+    "sovereign": {
+        "mistakes": 0
+    },
+    "sovereignty": {
+        "mistakes": 0
+    },
+    "spark": {
+        "mistakes": 0
+    },
+    "spectacle": {
+        "mistakes": 0
+    },
+    "spectator": {
+        "mistakes": 0
+    },
+    "speculate": {
+        "mistakes": 0
+    },
+    "spite": {
+        "mistakes": 0
+    },
+    "spore": {
+        "mistakes": 0
+    },
+    "spouse": {
+        "mistakes": 0
+    },
+    "sprinkle": {
+        "mistakes": 0
+    },
+    "squad": {
+        "mistakes": 0
+    },
+    "stagger": {
+        "mistakes": 0
+    },
+    "stalk": {
+        "mistakes": 0
+    },
+    "stall": {
+        "mistakes": 0
+    },
+    "stammer": {
+        "mistakes": 0
+    },
+    "stark": {
+        "mistakes": 0
+    },
+    "statute": {
+        "mistakes": 0
+    },
+    "steady": {
+        "mistakes": 0
+    },
+    "steer": {
+        "mistakes": 0
+    },
+    "stereotype": {
+        "mistakes": 0
+    },
+    "stifle": {
+        "mistakes": 0
+    },
+    "stigma": {
+        "mistakes": 0
+    },
+    "stipulate": {
+        "mistakes": 0
+    },
+    "stout": {
+        "mistakes": 0
+    },
+    "strain": {
+        "mistakes": 0
+    },
+    "strait": {
+        "mistakes": 0
+    },
+    "strand": {
+        "mistakes": 0
+    },
+    "stray": {
+        "mistakes": 0
+    },
+    "streak": {
+        "mistakes": 0
+    },
+    "stretch": {
+        "mistakes": 0
+    },
+    "striking": {
+        "mistakes": 0
+    },
+    "strip": {
+        "mistakes": 0
+    },
+    "stubborn": {
+        "mistakes": 0
+    },
+    "stumble": {
+        "mistakes": 0
+    },
+    "stump": {
+        "mistakes": 0
+    },
+    "sturdy": {
+        "mistakes": 0
+    },
+    "submarine": {
+        "mistakes": 0
+    },
+    "submission": {
+        "mistakes": 0
+    },
+    "subordination": {
+        "mistakes": 0
+    },
+    "subsidy": {
+        "mistakes": 0
+    },
+    "subsistence": {
+        "mistakes": 0
+    },
+    "succession": {
+        "mistakes": 0
+    },
+    "suite": {
+        "mistakes": 0
+    },
+    "superintendent": {
+        "mistakes": 0
+    },
+    "superstitious": {
+        "mistakes": 0
+    },
+    "supervision": {
+        "mistakes": 0
+    },
+    "suppress": {
+        "mistakes": 0
+    },
+    "surpass": {
+        "mistakes": 0
+    },
+    "surveillance": {
+        "mistakes": 0
+    },
+    "susceptible": {
+        "mistakes": 0
+    },
+    "suspend": {
+        "mistakes": 0
+    },
+    "symbiotic": {
+        "mistakes": 0
+    },
+    "symphony": {
+        "mistakes": 0
+    },
+    "symposium": {
+        "mistakes": 0
+    },
+    "symptom": {
+        "mistakes": 0
+    },
+    "syndicate": {
+        "mistakes": 0
+    },
+    "synonym": {
+        "mistakes": 0
+    },
+    "tack": {
+        "mistakes": 0
+    },
+    "tactic": {
+        "mistakes": 0
+    },
+    "tan": {
+        "mistakes": 0
+    },
+    "tangle": {
+        "mistakes": 0
+    },
+    "tanker": {
+        "mistakes": 0
+    },
+    "tape": {
+        "mistakes": 0
+    },
+    "taxation": {
+        "mistakes": 0
+    },
+    "tedious": {
+        "mistakes": 0
+    },
+    "temperament": {
+        "mistakes": 0
+    },
+    "tempo": {
+        "mistakes": 0
+    },
+    "temporal": {
+        "mistakes": 0
+    },
+    "tempt": {
+        "mistakes": 1
+    },
+    "temptation": {
+        "mistakes": 0
+    },
+    "tend": {
+        "mistakes": 0
+    },
+    "tender": {
+        "mistakes": 0
+    },
+    "tentative": {
+        "mistakes": 0
+    },
+    "testimony": {
+        "mistakes": 0
+    },
+    "thesis": {
+        "mistakes": 0
+    },
+    "thrifty": {
+        "mistakes": 0
+    },
+    "thrill": {
+        "mistakes": 0
+    },
+    "thriller": {
+        "mistakes": 0
+    },
+    "throne": {
+        "mistakes": 0
+    },
+    "thrust": {
+        "mistakes": 0
+    },
+    "torture": {
+        "mistakes": 0
+    },
+    "tow": {
+        "mistakes": 0
+    },
+    "tract": {
+        "mistakes": 0
+    },
+    "trail": {
+        "mistakes": 0
+    },
+    "transaction": {
+        "mistakes": 0
+    },
+    "transcend": {
+        "mistakes": 0
+    },
+    "transformation": {
+        "mistakes": 0
+    },
+    "transient": {
+        "mistakes": 0
+    },
+    "transmit": {
+        "mistakes": 0
+    },
+    "traumatic": {
+        "mistakes": 0
+    },
+    "tread": {
+        "mistakes": 0
+    },
+    "treasonous": {
+        "mistakes": 0
+    },
+    "treaty": {
+        "mistakes": 0
+    },
+    "trek": {
+        "mistakes": 0
+    },
+    "trench": {
+        "mistakes": 0
+    },
+    "trickle": {
+        "mistakes": 0
+    },
+    "tricky": {
+        "mistakes": 0
+    },
+    "trim": {
+        "mistakes": 0
+    },
+    "trivial": {
+        "mistakes": 0
+    },
+    "tropical": {
+        "mistakes": 0
+    },
+    "trumpet": {
+        "mistakes": 0
+    },
+    "tub": {
+        "mistakes": 0
+    },
+    "tug": {
+        "mistakes": 0
+    },
+    "tumble": {
+        "mistakes": 0
+    },
+    "tunnel": {
+        "mistakes": 0
+    },
+    "turbulence": {
+        "mistakes": 0
+    },
+    "turbulent": {
+        "mistakes": 0
+    },
+    "turmoil": {
+        "mistakes": 0
+    },
+    "turnout": {
+        "mistakes": 0
+    },
+    "unanimous": {
+        "mistakes": 0
+    },
+    "underlying": {
+        "mistakes": 0
+    },
+    "undermine": {
+        "mistakes": 0
+    },
+    "undertaking": {
+        "mistakes": 0
+    },
+    "unleash": {
+        "mistakes": 0
+    },
+    "untangle": {
+        "mistakes": 0
+    },
+    "unveil": {
+        "mistakes": 0
+    },
+    "uranium": {
+        "mistakes": 0
+    },
+    "vacant": {
+        "mistakes": 0
+    },
+    "vacuum": {
+        "mistakes": 0
+    },
+    "valve": {
+        "mistakes": 0
+    },
+    "vanish": {
+        "mistakes": 0
+    },
+    "variation": {
+        "mistakes": 0
+    },
+    "vegetation": {
+        "mistakes": 0
+    },
+    "vein": {
+        "mistakes": 0
+    },
+    "vent": {
+        "mistakes": 0
+    },
+    "venue": {
+        "mistakes": 0
+    },
+    "verdict": {
+        "mistakes": 0
+    },
+    "verge": {
+        "mistakes": 0
+    },
+    "versus": {
+        "mistakes": 0
+    },
+    "viable": {
+        "mistakes": 0
+    },
+    "vibration": {
+        "mistakes": 0
+    },
+    "vicious": {
+        "mistakes": 0
+    },
+    "vicissitude": {
+        "mistakes": 0
+    },
+    "virgin": {
+        "mistakes": 0
+    },
+    "vogue": {
+        "mistakes": 0
+    },
+    "volatility": {
+        "mistakes": 0
+    },
+    "vow": {
+        "mistakes": 0
+    },
+    "wage": {
+        "mistakes": 0
+    },
+    "weep": {
+        "mistakes": 0
+    },
+    "wharf": {
+        "mistakes": 0
+    },
+    "whereby": {
+        "mistakes": 0
+    },
+    "whip": {
+        "mistakes": 0
+    },
+    "wholesome": {
+        "mistakes": 0
+    },
+    "wilderness": {
+        "mistakes": 0
+    },
+    "withhold": {
+        "mistakes": 0
+    },
+    "withstand": {
+        "mistakes": 0
+    },
+    "witty": {
+        "mistakes": 0
+    },
+    "woo": {
+        "mistakes": 0
+    },
+    "wrench": {
+        "mistakes": 0
+    },
+    "wretched": {
+        "mistakes": 0
+    },
+    "yawn": {
+        "mistakes": 0
+    },
+    "yield": {
+        "mistakes": 0
+    }
+}

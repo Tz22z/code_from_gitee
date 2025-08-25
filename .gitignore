@@ -1,0 +1,31 @@
+# Build directories
+build/
+bin/
+word_app
+
+# Node modules
+node_modules/
+
+# Log files
+logs/
+*.log
+
+# CMake cache
+CMakeCache.txt
+cmake_install.cmake
+
+# Object files
+*.o
+*.o.d
+
+# Backup files
+*~
+*.bak
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
