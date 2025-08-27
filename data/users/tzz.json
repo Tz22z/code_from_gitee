@@ -2,10 +2,10 @@
     "user_info": {
         "created_at": 1755197952,
         "last_learn_position": 20,
-        "last_login": 1756059204,
-        "last_review_position": 20,
+        "last_login": 1756311582,
+        "last_review_position": 200,
         "total_learning_time": 0,
-        "total_sessions": 117,
+        "total_sessions": 121,
         "username": "tzz"
     },
     "words": {
@@ -746,8 +746,8 @@
         },
         "comic": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756143994,
+            "mistakes": 1
         },
         "commemorate": {
             "correct_count": 0,
@@ -991,8 +991,8 @@
         },
         "courtesy": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756143994,
+            "mistakes": 1
         },
         "craft": {
             "correct_count": 0,
@@ -1861,8 +1861,8 @@
         },
         "furious": {
             "correct_count": 0,
-            "last_seen": 1755877676,
-            "mistakes": 2
+            "last_seen": 1756144238,
+            "mistakes": 3
         },
         "fuss": {
             "correct_count": 0,
@@ -2086,8 +2086,8 @@
         },
         "illusion": {
             "correct_count": 0,
-            "last_seen": 1755878610,
-            "mistakes": 2
+            "last_seen": 1756144238,
+            "mistakes": 3
         },
         "immersion": {
             "correct_count": 0,
@@ -2241,8 +2241,8 @@
         },
         "intact": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756142736,
+            "mistakes": 1
         },
         "intelligible": {
             "correct_count": 0,
@@ -3316,8 +3316,8 @@
         },
         "rooster": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756142736,
+            "mistakes": 1
         },
         "roughly": {
             "correct_count": 0,
@@ -3961,8 +3961,8 @@
         },
         "thesis": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756144238,
+            "mistakes": 1
         },
         "thrifty": {
             "correct_count": 0,
@@ -4201,8 +4201,8 @@
         },
         "vegetation": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756144238,
+            "mistakes": 1
         },
         "vein": {
             "correct_count": 0,

@@ -745,6 +745,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .filter(([, selection]) => selection === 'dont-know')
             .map(([word]) => word);
 
+        // Update mistake counts for all modes (including exam)
         if (wordsToUpdate.length > 0) {
             try {
                 await fetch('/update_mistakes_batch', {
@@ -752,6 +753,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ words: wordsToUpdate }),
                 });
+                // Update the review list and stats after updating mistakes
+                await updateReviewList();
+                await updateStats();
             } catch (error) {
                 console.error('Error updating mistakes:', error);
                 alert('Failed to submit results. Please try again.');
@@ -781,7 +785,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } else if (appState.activeMode === 'exam') {
             const correctAnswers = Object.values(currentSession.selections).filter(s => s === 'know').length;
-            const scoreMessage = `Exam finished! <br> Your score: <span class="score">${correctAnswers} / ${words.length}</span>`;
+            const incorrectAnswers = Object.values(currentSession.selections).filter(s => s === 'dont-know').length;
+            let scoreMessage = `Exam finished! <br> Your score: <span class="score">${correctAnswers} / ${words.length}</span>`;
+            if (incorrectAnswers > 0) {
+                scoreMessage += `<br><span class="mistakes-added">Added ${incorrectAnswers} words to review list</span>`;
+            }
             showCompletion(scoreMessage);
             resetCurrentSession();
         } else {

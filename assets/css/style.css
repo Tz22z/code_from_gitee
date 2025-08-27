@@ -791,6 +791,14 @@ body {
     color: var(--exam-color);
 }
 
+.mistakes-added {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--review-color);
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
 .hidden {
     display: none !important;
 }
