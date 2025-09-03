@@ -2,10 +2,10 @@
     "user_info": {
         "created_at": 1755197952,
         "last_learn_position": 20,
-        "last_login": 1756311582,
-        "last_review_position": 200,
+        "last_login": 1756840569,
+        "last_review_position": 20,
         "total_learning_time": 0,
-        "total_sessions": 121,
+        "total_sessions": 140,
         "username": "tzz"
     },
     "words": {
@@ -46,8 +46,8 @@
         },
         "adequacy": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756750760,
+            "mistakes": 1
         },
         "advent": {
             "correct_count": 0,
@@ -71,8 +71,8 @@
         },
         "affiliate": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756750760,
+            "mistakes": 1
         },
         "affixation": {
             "correct_count": 0,
@@ -746,8 +746,8 @@
         },
         "comic": {
             "correct_count": 0,
-            "last_seen": 1756143994,
-            "mistakes": 1
+            "last_seen": 0,
+            "mistakes": 0
         },
         "commemorate": {
             "correct_count": 0,
@@ -991,8 +991,8 @@
         },
         "courtesy": {
             "correct_count": 0,
-            "last_seen": 1756143994,
-            "mistakes": 1
+            "last_seen": 0,
+            "mistakes": 0
         },
         "craft": {
             "correct_count": 0,
@@ -1196,8 +1196,8 @@
         },
         "depression": {
             "correct_count": 0,
-            "last_seen": 1755328277,
-            "mistakes": 1
+            "last_seen": 1756750760,
+            "mistakes": 2
         },
         "deputy": {
             "correct_count": 0,
@@ -1236,8 +1236,8 @@
         },
         "detention": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756318108,
+            "mistakes": 1
         },
         "deter": {
             "correct_count": 0,
@@ -1491,8 +1491,8 @@
         },
         "eligible": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756580679,
+            "mistakes": 1
         },
         "eliminate": {
             "correct_count": 0,
@@ -1501,8 +1501,8 @@
         },
         "eloquent": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756318108,
+            "mistakes": 1
         },
         "embargo": {
             "correct_count": 0,
@@ -1801,8 +1801,8 @@
         },
         "formation": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756750760,
+            "mistakes": 1
         },
         "former": {
             "correct_count": 0,
@@ -1861,7 +1861,7 @@
         },
         "furious": {
             "correct_count": 0,
-            "last_seen": 1756144238,
+            "last_seen": 1756839546,
             "mistakes": 3
         },
         "fuss": {
@@ -1931,8 +1931,8 @@
         },
         "gossamer": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756580679,
+            "mistakes": 1
         },
         "grab": {
             "correct_count": 0,
@@ -2086,8 +2086,8 @@
         },
         "illusion": {
             "correct_count": 0,
-            "last_seen": 1756144238,
-            "mistakes": 3
+            "last_seen": 1755878610,
+            "mistakes": 2
         },
         "immersion": {
             "correct_count": 0,
@@ -2241,13 +2241,13 @@
         },
         "intact": {
             "correct_count": 0,
-            "last_seen": 1756142736,
-            "mistakes": 1
+            "last_seen": 0,
+            "mistakes": 0
         },
         "intelligible": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756750760,
+            "mistakes": 1
         },
         "intentional": {
             "correct_count": 0,
@@ -2256,8 +2256,8 @@
         },
         "interface": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756750760,
+            "mistakes": 1
         },
         "interrogate": {
             "correct_count": 0,
@@ -2691,8 +2691,8 @@
         },
         "ornamentation": {
             "correct_count": 0,
-            "last_seen": 1755880879,
-            "mistakes": 2
+            "last_seen": 1756839546,
+            "mistakes": 3
         },
         "outrage": {
             "correct_count": 0,
@@ -3306,8 +3306,8 @@
         },
         "ritual": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756580679,
+            "mistakes": 1
         },
         "rival": {
             "correct_count": 0,
@@ -3316,8 +3316,8 @@
         },
         "rooster": {
             "correct_count": 0,
-            "last_seen": 1756142736,
-            "mistakes": 1
+            "last_seen": 0,
+            "mistakes": 0
         },
         "roughly": {
             "correct_count": 0,
@@ -3606,8 +3606,8 @@
         },
         "spectacle": {
             "correct_count": 0,
-            "last_seen": 1755883333,
-            "mistakes": 2
+            "last_seen": 1756839546,
+            "mistakes": 3
         },
         "spectator": {
             "correct_count": 0,
@@ -3961,8 +3961,8 @@
         },
         "thesis": {
             "correct_count": 0,
-            "last_seen": 1756144238,
-            "mistakes": 1
+            "last_seen": 0,
+            "mistakes": 0
         },
         "thrifty": {
             "correct_count": 0,
@@ -4026,8 +4026,8 @@
         },
         "transient": {
             "correct_count": 0,
-            "last_seen": 0,
-            "mistakes": 0
+            "last_seen": 1756580679,
+            "mistakes": 1
         },
         "transmit": {
             "correct_count": 0,
@@ -4201,8 +4201,8 @@
         },
         "vegetation": {
             "correct_count": 0,
-            "last_seen": 1756144238,
-            "mistakes": 1
+            "last_seen": 0,
+            "mistakes": 0
         },
         "vein": {
             "correct_count": 0,

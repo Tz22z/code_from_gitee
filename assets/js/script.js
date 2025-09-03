@@ -21,18 +21,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const wordDisplay = document.getElementById('word-display');
     const completionMessage = document.getElementById('completion-message');
     const welcomePanel = document.getElementById('welcome-panel');
+    const listenInterface = document.getElementById('listen-interface');
 
     const wordList = document.getElementById('word-list');
     const submitBtn = document.getElementById('submit-btn');
     const learnModeBtn = document.getElementById('learn-mode-btn');
     const examModeBtn = document.getElementById('exam-mode-btn');
     const reviewModeBtn = document.getElementById('review-mode-btn');
+    const wordReaderBtn = document.getElementById('word-reader-btn');
     const returnHomeBtn = document.getElementById('return-home-btn');
     const backToHomeSessionBtn = document.getElementById('back-to-home-session-btn');
     const nextBatchBtn = document.getElementById('next-batch-btn');
     const nextBatchHeaderBtn = document.getElementById('next-batch-header-btn');
     const prevBatchHeaderBtn = document.getElementById('prev-batch-header-btn');
     const completionText = completionMessage.querySelector('p');
+    const backToDashboardBtn = document.getElementById('back-to-dashboard-btn');
 
     // Sidebar elements
     const statsTotal = document.getElementById('stats-total');
@@ -562,7 +565,7 @@ document.addEventListener('DOMContentLoaded', () => {
             viewsToShow = [viewsToShow];
         }
 
-        const allViews = [modeSelection, wordDisplay, completionMessage, welcomePanel];
+        const allViews = [modeSelection, wordDisplay, completionMessage, welcomePanel, listenInterface];
         
         allViews.forEach(view => view.classList.add('fading'));
 
@@ -805,6 +808,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     function resetToHome() {
+        // Stop any ongoing reading if in listen mode
+        if (appState.activeMode === 'listen') {
+            window.stopReading();
+        }
+        
         appState.activeMode = null;
         saveState();
         updateStats();
@@ -846,6 +854,12 @@ document.addEventListener('DOMContentLoaded', () => {
     learnModeBtn.addEventListener('click', () => startSession('learn'));
     examModeBtn.addEventListener('click', () => startSession('exam'));
     reviewModeBtn.addEventListener('click', () => startSession('review'));
+    wordReaderBtn.addEventListener('click', () => {
+        appState.activeMode = 'listen';
+        saveState();
+        switchToView(listenInterface);
+        initializeListenInterface();
+    });
     submitBtn.addEventListener('click', submitResults);
     returnHomeBtn.addEventListener('click', resetToHome);
     backToHomeSessionBtn.addEventListener('click', resetToHome);
@@ -866,6 +880,435 @@ document.addEventListener('DOMContentLoaded', () => {
             showSearchResult('Enter a word to see its meaning', 'placeholder');
         }
     });
+
+    // Listen interface event listeners
+    backToDashboardBtn.addEventListener('click', () => {
+        resetToHome();
+    });
+
+    // ===== 单词朗读器功能 =====
+    let listenWords = [];
+    let currentWordIndex = 0;
+    let isReading = false;
+    let isPaused = false;
+    let readingTimeout;
+
+    function initializeListenInterface() {
+        // Reset listen interface state
+        listenWords = [];
+        currentWordIndex = 0;
+        isReading = false;
+        isPaused = false;
+        clearTimeout(readingTimeout);
+        
+        // Reset UI elements
+        const wordTextArea = document.getElementById('wordText');
+        const speedSlider = document.getElementById('speed');
+        const pauseSlider = document.getElementById('pause');
+        const speedValue = document.getElementById('speedValue');
+        const pauseValue = document.getElementById('pauseValue');
+        const startBtn = document.getElementById('startBtn');
+        const pauseBtn = document.getElementById('pauseBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        const progressFill = document.getElementById('progressFill');
+        const status = document.getElementById('status');
+        const wordListDiv = document.getElementById('wordList');
+        const wordListTip = document.getElementById('wordListTip');
+
+        // Reset form values
+        if (wordTextArea) wordTextArea.value = '';
+        if (speedSlider) speedSlider.value = '150';
+        if (pauseSlider) pauseSlider.value = '800';
+        if (speedValue) speedValue.textContent = '150';
+        if (pauseValue) pauseValue.textContent = '800';
+        
+        // Reset button states
+        if (startBtn) startBtn.disabled = false;
+        if (pauseBtn) {
+            pauseBtn.disabled = true;
+            pauseBtn.textContent = '暂停';
+        }
+        if (stopBtn) stopBtn.disabled = true;
+        
+        // Reset progress and status
+        if (progressFill) progressFill.style.width = '0%';
+        if (status) status.style.display = 'none';
+        if (wordListDiv) wordListDiv.style.display = 'none';
+        if (wordListTip) wordListTip.style.display = 'none';
+
+        // Setup event listeners for listen interface
+        setupListenEventListeners();
+        
+        // Initialize speech synthesis
+        initSpeechSynthesis();
+    }
+
+    function setupListenEventListeners() {
+        const speedSlider = document.getElementById('speed');
+        const pauseSlider = document.getElementById('pause');
+        const speedValue = document.getElementById('speedValue');
+        const pauseValue = document.getElementById('pauseValue');
+
+        if (speedSlider && speedValue) {
+            speedSlider.addEventListener('input', function() {
+                speedValue.textContent = this.value;
+            });
+        }
+
+        if (pauseSlider && pauseValue) {
+            pauseSlider.addEventListener('input', function() {
+                pauseValue.textContent = this.value;
+            });
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            if (listenInterface && !listenInterface.classList.contains('hidden')) {
+                if (e.ctrlKey) {
+                    switch(e.key) {
+                        case 'Enter':
+                            e.preventDefault();
+                            if (!isReading) {
+                                startReading();
+                            }
+                            break;
+                        case ' ':
+                            e.preventDefault();
+                            if (isReading) {
+                                pauseReading();
+                            }
+                            break;
+                        case 'Escape':
+                            e.preventDefault();
+                            stopReading();
+                            break;
+                    }
+                }
+            }
+        });
+    }
+
+    window.startReading = function() {
+        const wordTextArea = document.getElementById('wordText');
+        const text = wordTextArea ? wordTextArea.value.trim() : '';
+        
+        if (!text) {
+            showListenStatus('请先输入要朗读的单词！', 'error');
+            return;
+        }
+
+        listenWords = parseWords(text);
+        if (listenWords.length === 0) {
+            showListenStatus('没有找到有效的单词！', 'error');
+            return;
+        }
+
+        currentWordIndex = 0;
+        isReading = true;
+        isPaused = false;
+
+        // Update button states
+        const startBtn = document.getElementById('startBtn');
+        const pauseBtn = document.getElementById('pauseBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        
+        if (startBtn) startBtn.disabled = true;
+        if (pauseBtn) pauseBtn.disabled = false;
+        if (stopBtn) stopBtn.disabled = false;
+
+        showListenStatus(`准备朗读 ${listenWords.length} 个单词...`, 'info');
+        displayListenWords();
+        
+        readNextWord();
+    };
+
+    window.pauseReading = function() {
+        if (isReading) {
+            isPaused = !isPaused;
+            const pauseBtn = document.getElementById('pauseBtn');
+            
+            if (isPaused) {
+                clearTimeout(readingTimeout);
+                if (speechSynthesis) speechSynthesis.pause();
+                if (pauseBtn) pauseBtn.textContent = '继续';
+                showListenStatus('朗读已暂停', 'info');
+            } else {
+                if (speechSynthesis) speechSynthesis.resume();
+                if (pauseBtn) pauseBtn.textContent = '暂停';
+                readNextWord();
+            }
+        }
+    };
+
+    window.stopReading = function() {
+        isReading = false;
+        isPaused = false;
+        clearTimeout(readingTimeout);
+        if (speechSynthesis) speechSynthesis.cancel();
+
+        // Reset button states
+        const startBtn = document.getElementById('startBtn');
+        const pauseBtn = document.getElementById('pauseBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        
+        if (startBtn) startBtn.disabled = false;
+        if (pauseBtn) {
+            pauseBtn.disabled = true;
+            pauseBtn.textContent = '暂停';
+        }
+        if (stopBtn) stopBtn.disabled = true;
+
+        currentWordIndex = 0;
+        updateListenProgress();
+        displayListenWords();
+        hideListenStatus();
+    };
+
+    window.clearText = function() {
+        const wordTextArea = document.getElementById('wordText');
+        if (wordTextArea) wordTextArea.value = '';
+        
+        window.stopReading();
+        listenWords = [];
+        
+        const wordListDiv = document.getElementById('wordList');
+        const wordListTip = document.getElementById('wordListTip');
+        if (wordListDiv) wordListDiv.style.display = 'none';
+        if (wordListTip) wordListTip.style.display = 'none';
+        
+        hideListenStatus();
+    };
+
+    window.testSpeech = async function() {
+        showListenStatus('测试语音功能...', 'info');
+        console.log('开始测试语音功能');
+        
+        try {
+            await speakWord('hello');
+            showListenStatus('语音测试成功！', 'success');
+        } catch (error) {
+            console.error('语音测试失败:', error);
+            showListenStatus('语音测试失败，请检查浏览器设置', 'error');
+        }
+    };
+
+    function parseWords(text) {
+        return text.toLowerCase()
+                  .split(/\s+/)
+                  .map(word => word.replace(/[^\w]/g, ''))
+                  .filter(word => word.length > 0);
+    }
+
+    function showListenStatus(message, type = 'info') {
+        const status = document.getElementById('status');
+        if (status) {
+            status.innerHTML = `${message}<button class="close-btn" onclick="hideListenStatus()" title="关闭">×</button>`;
+            status.className = `status ${type}`;
+            status.style.display = 'block';
+        }
+    }
+
+    window.hideListenStatus = function() {
+        const status = document.getElementById('status');
+        if (status) status.style.display = 'none';
+    };
+
+    function updateListenProgress() {
+        const progress = listenWords.length > 0 ? (currentWordIndex / listenWords.length) * 100 : 0;
+        const progressFill = document.getElementById('progressFill');
+        if (progressFill) progressFill.style.width = progress + '%';
+    }
+
+    function displayListenWords() {
+        const wordListDiv = document.getElementById('wordList');
+        const wordListTip = document.getElementById('wordListTip');
+        
+        if (!wordListDiv || !wordListTip) return;
+        
+        if (listenWords.length === 0) {
+            wordListDiv.style.display = 'none';
+            wordListTip.style.display = 'none';
+            return;
+        }
+
+        wordListDiv.innerHTML = '';
+        listenWords.forEach((word, index) => {
+            const wordElement = document.createElement('span');
+            wordElement.className = 'word-item';
+            if (index === currentWordIndex) {
+                wordElement.classList.add('current');
+            }
+            wordElement.textContent = word;
+            
+            // Add click event for single word reading
+            wordElement.onclick = () => {
+                speakSingleWord(word, index);
+            };
+            
+            wordElement.style.cursor = 'pointer';
+            wordElement.title = `点击朗读: ${word}`;
+            
+            wordListDiv.appendChild(wordElement);
+        });
+        
+        wordListDiv.style.display = 'block';
+        wordListTip.style.display = 'block';
+    }
+
+    async function speakSingleWord(word, index) {
+        // Temporarily highlight the clicked word
+        const wordElements = document.querySelectorAll('.word-item');
+        wordElements.forEach((el, i) => {
+            el.classList.remove('clicked');
+            if (i === index) {
+                el.classList.add('clicked');
+            }
+        });
+        
+        showListenStatus(`点击朗读: ${word}`, 'info');
+        
+        try {
+            await speakWord(word);
+            showListenStatus(`朗读完成: ${word}`, 'success');
+            
+            setTimeout(() => {
+                wordElements.forEach(el => el.classList.remove('clicked'));
+            }, 1000);
+        } catch (error) {
+            showListenStatus(`朗读失败: ${word}`, 'error');
+            setTimeout(() => {
+                wordElements.forEach(el => el.classList.remove('clicked'));
+            }, 1000);
+        }
+    }
+
+    function speakWord(word) {
+        return new Promise((resolve) => {
+            console.log('尝试朗读单词:', word);
+            
+            // Use Web Speech API
+            if ('speechSynthesis' in window) {
+                console.log('使用Web Speech API');
+                
+                if (speechSynthesis.speaking) {
+                    speechSynthesis.cancel();
+                }
+                
+                const utterance = new SpeechSynthesisUtterance(word);
+                const speedSlider = document.getElementById('speed');
+                utterance.rate = speedSlider ? (speedSlider.value / 150) : 1;
+                utterance.lang = 'en-US';
+                utterance.volume = 1;
+                utterance.pitch = 1;
+                
+                utterance.onstart = () => {
+                    console.log('开始朗读:', word);
+                };
+                
+                utterance.onend = () => {
+                    console.log('朗读完成:', word);
+                    resolve();
+                };
+                
+                utterance.onerror = (event) => {
+                    console.error('Speech synthesis error for word:', word, event);
+                    showListenStatus(`朗读错误: ${event.error}`, 'error');
+                    resolve();
+                };
+                
+                // Get available voices
+                const voices = speechSynthesis.getVoices();
+                if (voices.length > 0) {
+                    const englishVoice = voices.find(voice => voice.lang.startsWith('en'));
+                    if (englishVoice) {
+                        utterance.voice = englishVoice;
+                        console.log('使用语音:', englishVoice.name);
+                    }
+                }
+                
+                setTimeout(() => {
+                    speechSynthesis.speak(utterance);
+                }, 100);
+                
+            } else {
+                console.log('Web Speech API不支持，使用后端');
+                // Fallback to backend if Web Speech API is not supported
+                fetch('/speak', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ word: word })
+                }).then(response => {
+                    if (response.ok) {
+                        console.log('后端朗读成功:', word);
+                    } else {
+                        console.error('后端朗读失败:', response.status);
+                    }
+                    setTimeout(resolve, 1000);
+                }).catch(error => {
+                    console.error('Backend speech error for word:', word, error);
+                    showListenStatus(`后端朗读错误: ${error.message}`, 'error');
+                    setTimeout(resolve, 500);
+                });
+            }
+        });
+    }
+
+    async function readNextWord() {
+        if (!isReading || isPaused || currentWordIndex >= listenWords.length) {
+            return;
+        }
+
+        const word = listenWords[currentWordIndex];
+        showListenStatus(`正在朗读: ${word} (${currentWordIndex + 1}/${listenWords.length})`, 'info');
+        
+        displayListenWords();
+        updateListenProgress();
+
+        await speakWord(word);
+        
+        if (!isReading || isPaused) return;
+        
+        currentWordIndex++;
+        
+        if (currentWordIndex >= listenWords.length) {
+            // Reading complete
+            window.stopReading();
+            showListenStatus('朗读完成！', 'success');
+            return;
+        }
+
+        // Pause between words
+        const pauseSlider = document.getElementById('pause');
+        const pauseTime = pauseSlider ? parseInt(pauseSlider.value) : 800;
+        readingTimeout = setTimeout(readNextWord, pauseTime);
+    }
+
+    function initSpeechSynthesis() {
+        if ('speechSynthesis' in window) {
+            const loadVoices = () => {
+                const voices = speechSynthesis.getVoices();
+                console.log('可用语音数量:', voices.length);
+                voices.forEach(voice => {
+                    console.log(`语音: ${voice.name} (${voice.lang})`);
+                });
+                
+                if (voices.length > 0) {
+                    showListenStatus(`语音合成已准备就绪，共${voices.length}个语音可用`, 'success');
+                    setTimeout(() => hideListenStatus(), 3000);
+                }
+            };
+            
+            if (speechSynthesis.getVoices().length > 0) {
+                loadVoices();
+            } else {
+                speechSynthesis.onvoiceschanged = loadVoices;
+            }
+        } else {
+            showListenStatus('您的浏览器不支持语音合成，将尝试使用后端服务', 'info');
+        }
+    }
 
     initializeDashboard();
 });

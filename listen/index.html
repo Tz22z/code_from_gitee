@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>单词朗读器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 800px;
+            width: 90%;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+
+        .input-section {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: inherit;
+            resize: vertical;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .control-group label {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        input[type="range"] {
+            width: 150px;
+        }
+
+        input[type="number"] {
+            width: 80px;
+            padding: 8px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+            min-width: 120px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-secondary {
+            background: #f8f9fa;
+            color: #333;
+            border: 2px solid #e0e0e0;
+        }
+
+        .btn-secondary:hover {
+            background: #e9ecef;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #c82333;
+            transform: translateY(-2px);
+        }
+
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .status .close-btn {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            background: none;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            color: inherit;
+            opacity: 0.7;
+            padding: 0;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .status .close-btn:hover {
+            opacity: 1;
+        }
+
+        .status.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .word-list {
+            margin-top: 20px;
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            background: #f8f9fa;
+        }
+
+        .word-item {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 3px;
+            background: white;
+            border-radius: 15px;
+            font-size: 14px;
+            border: 1px solid #dee2e6;
+        }
+
+        .word-item.current {
+            background: #667eea;
+            color: white;
+            font-weight: bold;
+        }
+
+        .word-item:hover {
+            background: #e9ecef;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: all 0.2s;
+        }
+
+        .word-item.clicked {
+            background: #28a745;
+            color: white;
+            font-weight: bold;
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .controls {
+                flex-direction: column;
+            }
+            
+            .buttons {
+                flex-direction: column;
+            }
+            
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔊 单词朗读器</h1>
+        
+        <div class="input-section">
+            <label for="wordText">请粘贴或输入要朗读的单词：</label>
+            <textarea id="wordText" placeholder="在这里粘贴单词，用空格分隔...&#10;例如：apple banana cherry dog elephant"></textarea>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="speed">语速：<span id="speedValue">150</span> wpm</label>
+                <input type="range" id="speed" min="80" max="250" value="150">
+            </div>
+            
+            <div class="control-group">
+                <label for="pause">单词间暂停：<span id="pauseValue">800</span> ms</label>
+                <input type="range" id="pause" min="200" max="2000" value="800" step="100">
+            </div>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn-primary" id="startBtn" onclick="startReading()">开始朗读</button>
+            <button class="btn-secondary" id="pauseBtn" onclick="pauseReading()" disabled>暂停</button>
+            <button class="btn-danger" id="stopBtn" onclick="stopReading()" disabled>停止</button>
+            <button class="btn-secondary" onclick="clearText()">清空文本</button>
+            <button class="btn-secondary" onclick="testSpeech()">测试语音</button>
+        </div>
+
+        <div id="status" class="status" style="display: none;"></div>
+        
+        <div id="wordListTip" style="display: none; text-align: center; color: #666; font-size: 14px; margin: 10px 0;">
+            💡 提示：点击下方任意单词可单独朗读
+        </div>
+        
+        <div id="wordList" class="word-list" style="display: none;"></div>
+    </div>
+
+    <script>
+        let words = [];
+        let currentWordIndex = 0;
+        let isReading = false;
+        let isPaused = false;
+        let readingTimeout;
+
+        // 更新滑块显示值
+        document.getElementById('speed').addEventListener('input', function() {
+            document.getElementById('speedValue').textContent = this.value;
+        });
+
+        document.getElementById('pause').addEventListener('input', function() {
+            document.getElementById('pauseValue').textContent = this.value;
+        });
+
+        function showStatus(message, type = 'info') {
+            const status = document.getElementById('status');
+            status.innerHTML = `${message}<button class="close-btn" onclick="hideStatus()" title="关闭">×</button>`;
+            status.className = `status ${type}`;
+            status.style.display = 'block';
+        }
+
+        function hideStatus() {
+            document.getElementById('status').style.display = 'none';
+        }
+
+        function updateProgress() {
+            const progress = words.length > 0 ? (currentWordIndex / words.length) * 100 : 0;
+            document.getElementById('progressFill').style.width = progress + '%';
+        }
+
+        function displayWords() {
+            const wordList = document.getElementById('wordList');
+            const wordListTip = document.getElementById('wordListTip');
+            
+            if (words.length === 0) {
+                wordList.style.display = 'none';
+                wordListTip.style.display = 'none';
+                return;
+            }
+
+            wordList.innerHTML = '';
+            words.forEach((word, index) => {
+                const wordElement = document.createElement('span');
+                wordElement.className = 'word-item';
+                if (index === currentWordIndex) {
+                    wordElement.classList.add('current');
+                }
+                wordElement.textContent = word;
+                
+                // 添加点击事件，点击单个单词进行朗读
+                wordElement.onclick = () => {
+                    speakSingleWord(word, index);
+                };
+                
+                // 添加悬停效果
+                wordElement.style.cursor = 'pointer';
+                wordElement.title = `点击朗读: ${word}`;
+                
+                wordList.appendChild(wordElement);
+            });
+            
+            wordList.style.display = 'block';
+            wordListTip.style.display = 'block';
+        }
+
+        function parseWords(text) {
+            // 分割单词并清理
+            return text.toLowerCase()
+                      .split(/\s+/)
+                      .map(word => word.replace(/[^\w]/g, ''))
+                      .filter(word => word.length > 0);
+        }
+
+        function speakWord(word) {
+            return new Promise((resolve) => {
+                console.log('尝试朗读单词:', word);
+                
+                // 使用Web Speech API
+                if ('speechSynthesis' in window) {
+                    console.log('使用Web Speech API');
+                    
+                    // 确保speechSynthesis已准备好
+                    if (speechSynthesis.speaking) {
+                        speechSynthesis.cancel();
+                    }
+                    
+                    const utterance = new SpeechSynthesisUtterance(word);
+                    utterance.rate = document.getElementById('speed').value / 150;
+                    utterance.lang = 'en-US';
+                    utterance.volume = 1;
+                    utterance.pitch = 1;
+                    
+                    utterance.onstart = () => {
+                        console.log('开始朗读:', word);
+                    };
+                    
+                    utterance.onend = () => {
+                        console.log('朗读完成:', word);
+                        resolve();
+                    };
+                    
+                    utterance.onerror = (event) => {
+                        console.error('Speech synthesis error for word:', word, event);
+                        showStatus(`朗读错误: ${event.error}`, 'error');
+                        resolve();
+                    };
+                    
+                    // 获取可用的语音
+                    const voices = speechSynthesis.getVoices();
+                    if (voices.length > 0) {
+                        // 优先选择英语语音
+                        const englishVoice = voices.find(voice => voice.lang.startsWith('en'));
+                        if (englishVoice) {
+                            utterance.voice = englishVoice;
+                            console.log('使用语音:', englishVoice.name);
+                        }
+                    }
+                    
+                    setTimeout(() => {
+                        speechSynthesis.speak(utterance);
+                    }, 100); // 短暂延迟确保准备就绪
+                    
+                } else {
+                    console.log('Web Speech API不支持，使用后端');
+                    // 如果不支持Web Speech API，使用后端
+                    fetch('/speak', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ word: word })
+                    }).then(response => {
+                        if (response.ok) {
+                            console.log('后端朗读成功:', word);
+                        } else {
+                            console.error('后端朗读失败:', response.status);
+                        }
+                        setTimeout(resolve, 1000); // 估算朗读时间
+                    }).catch(error => {
+                        console.error('Backend speech error for word:', word, error);
+                        showStatus(`后端朗读错误: ${error.message}`, 'error');
+                        setTimeout(resolve, 500);
+                    });
+                }
+            });
+        }
+
+        async function speakSingleWord(word, index) {
+            // 临时高亮被点击的单词
+            const wordElements = document.querySelectorAll('.word-item');
+            wordElements.forEach((el, i) => {
+                el.classList.remove('clicked');
+                if (i === index) {
+                    el.classList.add('clicked');
+                }
+            });
+            
+            showStatus(`点击朗读: ${word}`, 'info');
+            
+            try {
+                await speakWord(word);
+                showStatus(`朗读完成: ${word}`, 'success');
+                
+                // 1秒后移除高亮，但保持提示信息显示
+                setTimeout(() => {
+                    wordElements.forEach(el => el.classList.remove('clicked'));
+                    // 不再自动隐藏状态信息
+                }, 1000);
+            } catch (error) {
+                showStatus(`朗读失败: ${word}`, 'error');
+                setTimeout(() => {
+                    wordElements.forEach(el => el.classList.remove('clicked'));
+                    // 错误信息也保持显示
+                }, 1000);
+            }
+        }
+
+        async function readNextWord() {
+            if (!isReading || isPaused || currentWordIndex >= words.length) {
+                return;
+            }
+
+            const word = words[currentWordIndex];
+            showStatus(`正在朗读: ${word} (${currentWordIndex + 1}/${words.length})`, 'info');
+            
+            displayWords();
+            updateProgress();
+
+            await speakWord(word);
+            
+            if (!isReading || isPaused) return;
+            
+            currentWordIndex++;
+            
+            if (currentWordIndex >= words.length) {
+                // 朗读完成
+                stopReading();
+                showStatus('朗读完成！', 'success');
+                return;
+            }
+
+            // 单词间暂停
+            const pauseTime = parseInt(document.getElementById('pause').value);
+            readingTimeout = setTimeout(readNextWord, pauseTime);
+        }
+
+        function startReading() {
+            const text = document.getElementById('wordText').value.trim();
+            if (!text) {
+                showStatus('请先输入要朗读的单词！', 'error');
+                return;
+            }
+
+            words = parseWords(text);
+            if (words.length === 0) {
+                showStatus('没有找到有效的单词！', 'error');
+                return;
+            }
+
+            currentWordIndex = 0;
+            isReading = true;
+            isPaused = false;
+
+            // 更新按钮状态
+            document.getElementById('startBtn').disabled = true;
+            document.getElementById('pauseBtn').disabled = false;
+            document.getElementById('stopBtn').disabled = false;
+
+            showStatus(`准备朗读 ${words.length} 个单词...`, 'info');
+            displayWords();
+            
+            readNextWord();
+        }
+
+        function pauseReading() {
+            if (isReading) {
+                isPaused = !isPaused;
+                const pauseBtn = document.getElementById('pauseBtn');
+                
+                if (isPaused) {
+                    clearTimeout(readingTimeout);
+                    speechSynthesis.pause();
+                    pauseBtn.textContent = '继续';
+                    showStatus('朗读已暂停', 'info');
+                } else {
+                    speechSynthesis.resume();
+                    pauseBtn.textContent = '暂停';
+                    readNextWord();
+                }
+            }
+        }
+
+        function stopReading() {
+            isReading = false;
+            isPaused = false;
+            clearTimeout(readingTimeout);
+            speechSynthesis.cancel();
+
+            // 重置按钮状态
+            document.getElementById('startBtn').disabled = false;
+            document.getElementById('pauseBtn').disabled = true;
+            document.getElementById('pauseBtn').textContent = '暂停';
+            document.getElementById('stopBtn').disabled = true;
+
+            currentWordIndex = 0;
+            updateProgress();
+            displayWords();
+            hideStatus();
+        }
+
+        function clearText() {
+            document.getElementById('wordText').value = '';
+            stopReading();
+            words = [];
+            document.getElementById('wordList').style.display = 'none';
+            document.getElementById('wordListTip').style.display = 'none';
+            hideStatus();
+        }
+
+        async function testSpeech() {
+            showStatus('测试语音功能...', 'info');
+            console.log('开始测试语音功能');
+            
+            try {
+                await speakWord('hello');
+                showStatus('语音测试成功！', 'success');
+                // 测试成功信息保持显示，不自动消失
+            } catch (error) {
+                console.error('语音测试失败:', error);
+                showStatus('语音测试失败，请检查浏览器设置', 'error');
+                // 错误信息也保持显示
+            }
+        }
+
+        // 初始化语音合成
+        function initSpeechSynthesis() {
+            if ('speechSynthesis' in window) {
+                // 等待语音列表加载
+                const loadVoices = () => {
+                    const voices = speechSynthesis.getVoices();
+                    console.log('可用语音数量:', voices.length);
+                    voices.forEach(voice => {
+                        console.log(`语音: ${voice.name} (${voice.lang})`);
+                    });
+                    
+                    if (voices.length > 0) {
+                        showStatus(`语音合成已准备就绪，共${voices.length}个语音可用`, 'success');
+                        setTimeout(() => hideStatus(), 3000);
+                    }
+                };
+                
+                // 语音列表可能异步加载
+                if (speechSynthesis.getVoices().length > 0) {
+                    loadVoices();
+                } else {
+                    speechSynthesis.onvoiceschanged = loadVoices;
+                }
+            } else {
+                showStatus('您的浏览器不支持语音合成，将尝试使用后端服务', 'info');
+            }
+        }
+
+        // 页面加载完成后的初始化
+        window.addEventListener('load', function() {
+            initSpeechSynthesis();
+            
+            // 添加一个测试按钮（调试用）
+            console.log('页面加载完成，语音功能初始化中...');
+        });
+
+        // 键盘快捷键
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey) {
+                switch(e.key) {
+                    case 'Enter':
+                        e.preventDefault();
+                        if (!isReading) {
+                            startReading();
+                        }
+                        break;
+                    case ' ':
+                        e.preventDefault();
+                        if (isReading) {
+                            pauseReading();
+                        }
+                        break;
+                    case 'Escape':
+                        e.preventDefault();
+                        stopReading();
+                        break;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

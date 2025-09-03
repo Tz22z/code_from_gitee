@@ -618,35 +618,70 @@ body {
 }
 
 .mode-selection {
-    margin: auto 0;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    gap: 1.5rem;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+    width: 100%;
+    max-width: 600px;
 }
 
 .mode-selection button {
-    display: block;
     width: 100%;
-    padding: 1rem 1.25rem;
-    font-size: 1.05rem;
+    height: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
     font-weight: 600;
-    margin-bottom: 0.75rem;
     border: none;
-    border-radius: 12px;
+    border-radius: 25px;
     cursor: pointer;
-    color: white;
     transition: all var(--animation-speed) ease;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    justify-self: stretch;
+    align-self: stretch;
 }
 
 .mode-selection button:hover {
-    transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-.mode-selection button:active {
-    transform: translateY(-1px) scale(0.98);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-#learn-mode-btn { background-color: var(--primary-color); }
-#exam-mode-btn { background-color: var(--exam-color); }
-#review-mode-btn { background-color: var(--review-color); }
+.mode-selection button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 统一使用灰色配色 */
+#learn-mode-btn { 
+    background: linear-gradient(135deg, rgba(107, 114, 128, 0.9) 0%, rgba(75, 85, 99, 0.9) 100%);
+    color: white;
+}
+
+#exam-mode-btn { 
+    background: linear-gradient(135deg, rgba(156, 163, 175, 0.9) 0%, rgba(107, 114, 128, 0.9) 100%);
+    color: white;
+}
+
+#review-mode-btn { 
+    background: linear-gradient(135deg, rgba(75, 85, 99, 0.9) 0%, rgba(55, 65, 81, 0.9) 100%);
+    color: white;
+}
+
+#word-reader-btn { 
+    background: linear-gradient(135deg, rgba(156, 163, 175, 0.9) 0%, rgba(107, 114, 128, 0.9) 100%);
+    color: white;
+}
 
 #word-display {
     display: flex;
@@ -675,6 +710,7 @@ body {
 
 .word-item {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 0.75rem 1rem;
@@ -862,19 +898,20 @@ body {
 
 @media (max-width: 480px) {
     .word-item {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 0.75rem;
-        text-align: center;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.75rem 1rem;
     }
     
     .word-text {
-        padding-right: 0;
-        text-align: center;
+        padding-right: 0.75rem;
+        text-align: left;
+        flex: 1;
     }
     
     .word-actions {
-        justify-content: center;
+        white-space: nowrap;
         gap: 0.5rem;
     }
     
@@ -1157,6 +1194,310 @@ body {
     box-shadow: 0 2px 6px rgba(100, 116, 139, 0.3);
 }
 
+/* ===== 单词朗读器界面样式 ===== */
+#listen-interface {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(229, 231, 235, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+}
+
+.listen-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.listen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+}
+
+.listen-header h1 {
+    margin: 0;
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.btn-back {
+    padding: 0.75rem 1.5rem;
+    background: var(--subtle-text-color);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.btn-back:hover {
+    background: var(--text-color);
+    transform: translateY(-2px);
+}
+
+.input-section {
+    margin-bottom: 2rem;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.input-section textarea {
+    width: 100%;
+    height: 120px;
+    padding: 1rem;
+    border: 1px solid rgba(229, 231, 235, 0.7);
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    resize: vertical;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.input-section textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.controls {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.control-group label {
+    font-size: 0.9rem;
+    color: var(--subtle-text-color);
+    font-weight: 500;
+}
+
+.control-group input[type="range"] {
+    width: 150px;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--border-color);
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.control-group input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.control-group input[type="range"]::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--border-color);
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 1rem 0 2rem 0;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-color), #8b5cf6);
+    width: 0%;
+    transition: width 0.3s;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons button {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color), #8b5cf6);
+    color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, rgba(107, 114, 128, 0.9) 0%, rgba(75, 85, 99, 0.9) 100%);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-secondary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.btn-danger {
+    background: var(--danger-color);
+    color: white;
+}
+
+.btn-danger:hover:not(:disabled) {
+    background: #dc2626;
+    transform: translateY(-2px);
+}
+
+.buttons button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+.status {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+}
+
+.status .close-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: inherit;
+    opacity: 0.7;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.status .close-btn:hover {
+    opacity: 1;
+    background: rgba(0,0,0,0.1);
+}
+
+.status.info {
+    background: #dbeafe;
+    color: #1e40af;
+    border: 1px solid #bfdbfe;
+}
+
+.status.success {
+    background: #dcfce7;
+    color: #166534;
+    border: 1px solid #bbf7d0;
+}
+
+.status.error {
+    background: #fef2f2;
+    color: #991b1b;
+    border: 1px solid #fecaca;
+}
+
+.word-list {
+    margin-top: 1.5rem;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    background: var(--bg-color);
+}
+
+/* 单词朗读器中的单词项样式 */
+.word-list .word-item {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    margin: 0.25rem;
+    background: white;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.word-list .word-item:hover {
+    background: var(--border-color);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.word-list .word-item.current {
+    background: var(--primary-color);
+    color: white;
+    font-weight: bold;
+}
+
+.word-list .word-item.clicked {
+    background: var(--success-color);
+    color: white;
+    font-weight: bold;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(34, 197, 94, 0.3);
+}
+
 /* ===== 移动端登录界面适配 ===== */
 @media (max-width: 768px) {
     .user-actions {
@@ -1171,6 +1512,34 @@ body {
     
     .login-container {
         padding: 1rem;
+    }
+    
+    /* 朗读器移动端适配 */
+    #listen-interface {
+        padding: 1rem;
+    }
+    
+    .listen-header {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .listen-header h1 {
+        font-size: 2rem;
+    }
+    
+    .controls {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .buttons {
+        flex-direction: column;
+    }
+    
+    .buttons button {
+        width: 100%;
     }
 }
 

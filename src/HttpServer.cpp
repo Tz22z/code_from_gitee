@@ -36,6 +36,17 @@ void HttpServer::setup_static_routes() {
         }
     });
     
+    // 单词朗读器页面
+    server.Get("/listen/?", [](const httplib::Request&, httplib::Response& res) {
+        string content = FileUtils::read_text_file("listen/index.html");
+        if (!content.empty()) {
+            res.set_content(content, "text/html");
+        } else {
+            res.status = 404;
+            res.set_content("Word Reader not found", "text/plain");
+        }
+    });
+    
     // 静态文件服务
     server.Get(R"(/(.+\.(css|js|html|ico|png|jpg|jpeg|gif)))", [this](const httplib::Request& req, httplib::Response& res) {
         string filename = req.matches[1];
@@ -207,6 +218,36 @@ void HttpServer::setup_api_routes() {
         } catch (const exception& e) {
             res.status = 400;
             res.set_content(json{{"success", false}, {"error", "Invalid request format"}}.dump(), "application/json");
+        }
+    });
+    
+    // ===== 单词朗读器 API =====
+    
+    // 单个单词朗读API
+    server.Post("/speak", [this](const httplib::Request& req, httplib::Response& res) {
+        try {
+            json request_data = json::parse(req.body);
+            string word = request_data["word"];
+            
+            if (word.empty()) {
+                res.status = 400;
+                res.set_content(json{{"status", "error"}, {"message", "No word provided"}}.dump(), "application/json");
+                return;
+            }
+            
+            // 调用C++朗读程序
+            string command = "cd listen && ./word_reader \"" + word + "\"";
+            int result = system(command.c_str());
+            
+            if (result == 0) {
+                res.set_content(json{{"status", "success"}, {"message", "Spoke word: " + word}}.dump(), "application/json");
+            } else {
+                res.set_content(json{{"status", "error"}, {"message", "Failed to speak word: " + word}}.dump(), "application/json");
+            }
+            
+        } catch (const exception& e) {
+            res.status = 500;
+            res.set_content(json{{"status", "error"}, {"message", string("Internal server error: ") + e.what()}}.dump(), "application/json");
         }
     });
 }

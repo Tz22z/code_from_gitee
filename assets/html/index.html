@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20240903061130">
 </head>
 <body>
     <!-- 登录界面 -->
@@ -85,6 +85,7 @@
                 <button id="learn-mode-btn">Sequential Learning</button>
                 <button id="exam-mode-btn">Random Exam</button>
                 <button id="review-mode-btn">Review Mistakes</button>
+                <button id="word-reader-btn">Listening Practice</button>
             </div>
     
             <div id="word-display" class="hidden">
@@ -99,6 +100,53 @@
                 <p></p>
                 <button id="next-batch-btn" class="hidden">Learn Next Batch</button>
                 <button id="return-home-btn">Return Home</button>
+            </div>
+            
+            <!-- 单词朗读器界面 -->
+            <div id="listen-interface" class="hidden">
+                <div class="listen-container">
+                    <div class="listen-header">
+                        <h1>🎧 Listening Practice</h1>
+                        <button id="back-to-dashboard-btn" class="btn-back">← 返回主界面</button>
+                    </div>
+                    
+                    <div class="input-section">
+                        <label for="wordText">请粘贴或输入要朗读的单词：</label>
+                        <textarea id="wordText" placeholder="在这里粘贴单词，用空格分隔...&#10;例如：apple banana cherry dog elephant"></textarea>
+                    </div>
+
+                    <div class="controls">
+                        <div class="control-group">
+                            <label for="speed">语速：<span id="speedValue">150</span> wpm</label>
+                            <input type="range" id="speed" min="80" max="250" value="150">
+                        </div>
+                        
+                        <div class="control-group">
+                            <label for="pause">单词间暂停：<span id="pauseValue">800</span> ms</label>
+                            <input type="range" id="pause" min="200" max="2000" value="800" step="100">
+                        </div>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="btn-primary" id="startBtn" onclick="startReading()">开始朗读</button>
+                        <button class="btn-secondary" id="pauseBtn" onclick="pauseReading()" disabled>暂停</button>
+                        <button class="btn-danger" id="stopBtn" onclick="stopReading()" disabled>停止</button>
+                        <button class="btn-secondary" onclick="clearText()">清空文本</button>
+                        <button class="btn-secondary" onclick="testSpeech()">测试语音</button>
+                    </div>
+
+                    <div id="status" class="status" style="display: none;"></div>
+                    
+                    <div id="wordListTip" style="display: none; text-align: center; color: #666; font-size: 14px; margin: 10px 0;">
+                        💡 提示：点击下方任意单词可单独朗读
+                    </div>
+                    
+                    <div id="wordList" class="word-list" style="display: none;"></div>
+                </div>
             </div>
         </main>
 
